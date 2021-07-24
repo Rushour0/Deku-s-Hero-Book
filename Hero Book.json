@@ -1,0 +1,18 @@
+{
+	"Heroes":
+	{
+		"All Might":
+		{
+			"Hero Name" : "All Might",
+			"Real Name" : "Toshinori Yagi",
+			"Aliases" : "Symbol of Peace"
+		},
+
+		"Endeavour":
+		{
+			"Hero Name" : "Endeavour",
+			"Real Name" : "Enji Todoroki",
+			"Aliases" : "Flame Hero"
+		}
+	}
+}
