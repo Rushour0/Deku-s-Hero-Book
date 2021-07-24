@@ -18,8 +18,12 @@ local infoGroup = display.newGroup()
 function scene:create( event )
 	local sceneGroup = self.view
 
-	background = display.newRect( display.contentCenterX, display.contentCenterY, display.contentWidth, display.contentHeight )
-	background:setFillColor( 1 )
+	local back = display.newRect(display.contentCenterX,display.contentCenterY,display.contentWidth,display.contentHeight)
+	back:setFillColor(1)
+
+	local background = display.newImage( "background.png",display.contentCenterX,display.contentCenterY )
+	background.alpha = 0.9
+
 	local filename = system.pathForFile( "Hero Book.json", system.ResourceDirectory )
 
 	local function buttonClick( event )
@@ -63,7 +67,7 @@ function scene:create( event )
 			y = display.contentCenterY
 		})
 
-
+	sceneGroup:insert(back)
 	sceneGroup:insert(background)
 	sceneGroup:insert(button1)
 end
