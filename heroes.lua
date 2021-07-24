@@ -3,25 +3,69 @@
 -- menu.lua
 --
 -----------------------------------------------------------------------------------------
-
+local json = require "json"
 local composer = require( "composer" )
 local scene = composer.newScene()
 
 -- include Corona's "widget" library
 local widget = require "widget"
 
---------------------------------------------
+The_Heroes = {}
 
+--------------------------------------------
+local infoGroup = display.newGroup()
 
 function scene:create( event )
 	local sceneGroup = self.view
 
-	
-	--[[
-	sceneGroup:insert( background )
-	sceneGroup:insert( titleLogo )
-	sceneGroup:insert( playBtn )
-	]]
+	background = display.newRect( display.contentCenterX, display.contentCenterY, display.contentWidth, display.contentHeight )
+	background:setFillColor( 1 )
+	local filename = system.pathForFile( "Hero Book.json", system.ResourceDirectory )
+
+	local function buttonClick( event )
+		phase = event.phase
+		if (phase == "ended") then
+
+			decoded, pos, msg = json.decodeFile( filename )
+
+			if not decoded then
+			    print( "Decode failed at "..tostring(pos)..": "..tostring(msg) )
+			else
+
+				print( "File successfully decoded!" )
+
+				for _,Hero in pairs(decoded["Heroes"]) do
+					The_Heroes[#The_Heroes+1] = Hero
+				end
+
+			end
+			
+			print("clicked")
+		end
+	end
+
+	-- Create the widget
+	button1 = widget.newButton(
+		{
+			label = "tap me",
+			fontSize = 28,
+			onEvent = buttonClick,
+			emboss = false,
+			-- Properties for a rounded rectangle button
+			shape = "roundedRect",
+			width = 200,
+			height = 40,
+			cornerRadius = 2,
+			fillColor = { default={1,0,0,1}, over={1,0.1,0.7,0.4} },
+			strokeColor = { default={1,0.4,0,1}, over={0.8,0.8,1,1} },
+			strokeWidth = 4,
+			x = display.contentCenterX,
+			y = display.contentCenterY
+		})
+
+
+	sceneGroup:insert(background)
+	sceneGroup:insert(button1)
 end
 
 function scene:show( event )
@@ -55,15 +99,6 @@ end
 function scene:destroy( event )
 	local sceneGroup = self.view
 	
-	-- Called prior to the removal of scene's "view" (sceneGroup)
-	-- 
-	-- INSERT code here to cleanup the scene
-	-- e.g. remove display objects, remove touch listeners, save state, etc.
-	
-	if playBtn then
-		playBtn:removeSelf()	-- widgets must be manually removed
-		playBtn = nil
-	end
 end
 
 ---------------------------------------------------------------------------------
