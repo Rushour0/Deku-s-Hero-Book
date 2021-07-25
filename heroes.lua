@@ -22,6 +22,7 @@ function scene:create( event )
 
 end
 
+-- show()
 function scene:show( event )
 	local sceneGroup = self.view
 	local phase = event.phase
@@ -36,6 +37,7 @@ function scene:show( event )
 	end	
 end
 
+-- hide()
 function scene:hide( event )
 	local sceneGroup = self.view
 	local phase = event.phase
@@ -50,6 +52,7 @@ function scene:hide( event )
 	end	
 end
 
+-- destroy()
 function scene:destroy( event )
 	local sceneGroup = self.view
 	

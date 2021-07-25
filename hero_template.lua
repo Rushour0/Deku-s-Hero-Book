@@ -18,8 +18,6 @@ function scene:create( event )
 
 	local textField -- for name searching/viewing
 
-	-- File name from where the data is imported
-	local filename = system.pathForFile( "Hero Book.json", system.ResourceDirectory )
 
 	-- Button click template button right now
 	local function buttonClick( event )
@@ -35,8 +33,8 @@ function scene:create( event )
 
 				print( "File successfully decoded!" )
 				
-				for _,Hero in pairs(decoded["Heroes"]) do
-					The_Heroes[_] = Hero
+				for name,Hero in pairs(decoded["Heroes"]) do
+					The_Heroes[name] = Hero
 				end
 
 				table.sort(The_Heroes,compare)
@@ -84,7 +82,7 @@ function scene:create( event )
 			y = display.contentCenterY
 		})
 	
-	load_heroes_button.alpha = The_Heroes == nil and 1 or 0
+	load_heroes_button.alpha = next(The_Heroes) == nil and 1 or 0
 
 	-- dislay rows with set color and height, width
 	local function onRowRender( event )
@@ -126,8 +124,8 @@ function scene:create( event )
 			onRowRender = onRowRender,
 			onRowTouch = onRowTouch,
 			rowTouchDelay = 0,
-			noLines = true,
-			listener = scrollListener
+			noLines = true
+
 	    }
 	)
  

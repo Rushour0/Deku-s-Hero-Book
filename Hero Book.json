@@ -1,18 +1,39 @@
 {
 	"Heroes":
 	{
-		"All Might":
+		"All Might" :
 		{
 			"Hero Name" : "All Might",
 			"Real Name" : "Toshinori Yagi",
-			"Aliases" : "Symbol of Peace"
+			"Aliases" : "Symbol of Peace",
+			"Quirks" : "One For All"
+
 		},
 
-		"Endeavour":
+		"Endeavour" :
 		{
 			"Hero Name" : "Endeavour",
 			"Real Name" : "Enji Todoroki",
-			"Aliases" : "Flame Hero"
+			"Aliases" : "",
+			"Quirks" : "Hell Fire"
+		},
+
+		"Hawks" :
+		{
+			"Hero Name" : "Hawks",
+			"Real Name" : "Takami Keigo",
+			"Aliases" : "",
+			"Quirks" : "Fierce Wings"
+		},
+
+		"Fat Gum" :
+		{
+			"Hero Name" : "Fat Gum",
+			"Real Name" : "Toyomitsu Taishiro",
+			"Aliases" : "",
+			"Quirks" : "Fat Absorption"
 		}
+
+		
 	}
 }
