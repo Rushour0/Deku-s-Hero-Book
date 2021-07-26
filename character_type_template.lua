@@ -10,7 +10,7 @@ function scene:create( event )
 	local sceneGroup = self.view
 
 	-- Making a white background in the back
-	local back = display.newRect(display.contentCenterX,display.contentCenterY,display.contentWidth,display.contentHeight)
+	local back = display.newRect(display.contentCenterX,display.contentCenterY,display.contentWidth*2,display.contentHeight*2)
 	back:setFillColor(0)
 
 	-- background.png is loaded as the background
@@ -175,6 +175,7 @@ function scene:hide( event )
 	elseif ( phase == "did" ) then
 		-- Code here runs immediately after the scene goes entirely off screen
 		composer.removeScene("character_type_template")
+
 
 	end
 end

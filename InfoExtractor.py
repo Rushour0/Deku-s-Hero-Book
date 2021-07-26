@@ -77,10 +77,10 @@ for characterType,links_to_characters in links.items():
 		soup = BeautifulSoup(content,features="html.parser")
 
 		# Attributes of a character
-		attributes = ["romaji","alias","birthday","gender","height","quirk"]
+		attributes = ["romaji","alias","birthday","gender","height","quirk","image"]
 
 		# Character attributes
-		name,alias,birthday,gender,height,quirk = [None]*6
+		name,alias,birthday,gender,height,quirk,image = [None]*7
 
 		# Checking if all info is available
 		flag = 1
@@ -134,6 +134,10 @@ for characterType,links_to_characters in links.items():
 					value = the_parent.div.find(text = True)
 					quirk = value
 
+				else:
+					image = soup.find('div', attrs = {'class':'wds-tab__content wds-is-current'}).find('figure').find('img')["src"]
+					value = image
+
 			except:
 				flag = 0
 
@@ -143,7 +147,6 @@ for characterType,links_to_characters in links.items():
 					information["Raw"][characterType][temp] = {}
 					information["Raw"][characterType][temp]["Real Name"] = name
 					name = temp
-
 
 
 				# Making up for not finding alias
@@ -164,7 +167,7 @@ for characterType,links_to_characters in links.items():
 			information["Complete Information"][characterType][name]["Gender"] = gender
 			information["Complete Information"][characterType][name]["Height"] = height
 			information["Complete Information"][characterType][name]["Quirk"] = quirk
-
+			information["Complete Information"][characterType][name]["Image"] = image
 
 
 driver.quit()

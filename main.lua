@@ -23,6 +23,7 @@ characters = {}
 
 character_type_id = ""
 character_id = ""
+
 -- File name from where the data is imported
 filename = system.pathForFile( "Hero Book.json", system.ResourceDirectory )
 
