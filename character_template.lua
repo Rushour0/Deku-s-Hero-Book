@@ -140,10 +140,14 @@ function scene:show( event )
 		local rowColor = { default=color1, over=color2 }
 		
 		character_view:insertRow({rowHeight = 500,id = "Image", rowColor = rowColor, params = {rowTitle = nil}})
-		character_view:insertRow({rowHeight = 500,id = "Real Name", rowColor = rowColor, params = {rowTitle = nil}})
+		character_view:insertRow({id = "Real Name", rowColor = rowColor, params = {rowTitle = nil}})
+		character_view:insertRow({id = "Alias", rowColor = rowColor, params = {rowTitle = nil}})
+		character_view:insertRow({id = "Gender", rowColor = rowColor, params = {rowTitle = nil}})
+
+
 
 	 	for attr,value in pairs(characters[character_type_id][character_id]) do
-	 		if attr ~= "Image" or attr ~= "Real Name" then
+	 		if (attr ~= "Image" and attr ~= "Real Name" and attr ~= "Alias" and attr ~= "Gender") then
 	 		character_view:insertRow({id = attr, rowColor = rowColor, params = {rowTitle = nil, image = nil}}) end
 	 	end
 
