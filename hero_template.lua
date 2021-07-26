@@ -9,8 +9,12 @@ function scene:create( event )
 
 
 	-- Making a white background in the back
-	local background = display.newRect(display.contentCenterX,display.contentCenterY,display.contentWidth,display.contentHeight)
-	background:setFillColor(0)
+	local back = display.newRect(display.contentCenterX,display.contentCenterY,display.contentWidth,display.contentHeight)
+	back:setFillColor(0)
+
+	-- background.png is loaded as the background
+	local background = display.newImage( "background.jpg",display.contentCenterX,display.contentCenterY )
+	background.alpha = 0.9
 
 	local load_heroes_button -- button to load the heroes' information
 
@@ -33,18 +37,18 @@ function scene:create( event )
 
 				print( "File successfully decoded!" )
 				
-				for name,Hero in pairs(decoded["Heroes"]) do
+				for name,Hero in pairs(decoded["Complete Information"]["Pro_Heroes"]) do
 					The_Heroes[name] = Hero
 				end
 
-				table.sort(The_Heroes,compare)
+				-- table.sort(The_Heroes,compare)
 
 
 				--for heroname,herotable in pairs(The_Heroes) do print(heroname) end -- Loop to print all heroes' names
 
 				transition.to( load_heroes_button, { alpha = 0 } ) -- Making the clicked button fade away
 
-				local color1 = { 0, 0, 1,0.3}
+				local color1 = { 0, 0, 1,0.8}
 				local color2 = { 0, 0.4, 1, 0.5}
 					
 				local rowColor = { default=color1, over=color2 }
@@ -75,8 +79,8 @@ function scene:create( event )
 			width = 200,
 			height = 40,
 			cornerRadius = 2,
-			fillColor = { default={1,0,0,1}, over={1,0.1,0.7,0.4} },
-			strokeColor = { default={1,0.4,0,1}, over={0.8,0.8,1,1} },
+			fillColor = { default={1,1,1,1}, over={1,0.1,0.7,0.4} },
+			strokeColor = { default={0.8,0.8,0.8,1}, over={0.8,0.8,1,1} },
 			strokeWidth = 4,
 			x = display.contentCenterX,
 			y = display.contentCenterY
@@ -95,7 +99,7 @@ function scene:create( event )
 		local rowHeight = row.contentHeight
 		local rowWidth = row.contentWidth
 
-		local rowTitle = display.newText( row, row.id, 0, 0,"fonts/SuperMario256.ttf",16 )
+		local rowTitle = display.newText( row, The_Heroes[row.id]["Alias"], 0, 0,"fonts/SuperMario256.ttf",16 )
 		rowTitle:setFillColor( 1 )
 
 		-- Align the label left and vertically centered
@@ -162,6 +166,7 @@ function scene:create( event )
 	textField:setReturnKey( "done" )
 --]]
 
+	sceneGroup:insert(back)
 	sceneGroup:insert(background)
 	sceneGroup:insert(heroView)
 	sceneGroup:insert(load_heroes_button)

@@ -1,39 +1,3338 @@
 {
-	"Heroes":
-	{
-		"All Might" :
-		{
-			"Hero Name" : "All Might",
-			"Real Name" : "Toshinori Yagi",
-			"Aliases" : "Symbol of Peace",
-			"Quirks" : "One For All"
-
-		},
-
-		"Endeavour" :
-		{
-			"Hero Name" : "Endeavour",
-			"Real Name" : "Enji Todoroki",
-			"Aliases" : "",
-			"Quirks" : "Hell Fire"
-		},
-
-		"Hawks" :
-		{
-			"Hero Name" : "Hawks",
-			"Real Name" : "Takami Keigo",
-			"Aliases" : "",
-			"Quirks" : "Fierce Wings"
-		},
-
-		"Fat Gum" :
-		{
-			"Hero Name" : "Fat Gum",
-			"Real Name" : "Toyomitsu Taishiro",
-			"Aliases" : "",
-			"Quirks" : "Fat Absorption"
-		}
-
-		
-	}
+    "Raw": {
+        "Pro_Heroes": {
+            "Eajetto": {
+                "Real Name": "Eajetto",
+                "Alias": "Buster Hero ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Unnamed Air Blast Quirk"
+            },
+            "Z\u014dfukuki": {
+                "Real Name": "Z\u014dfukuki",
+                "Alias": "Amplifier",
+                "Birthday": "June 27",
+                "Gender": "Female",
+                "Height": "173 cm (5'8\")",
+                "Quirk": "Yell"
+            },
+            "Bakkudorafuto": {
+                "Real Name": "Bakkudorafuto",
+                "Alias": "Backdraft",
+                "Birthday": "March 7th",
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Water Pump"
+            },
+            "Biggu Reddo Dotto": {
+                "Real Name": "Biggu Reddo Dotto",
+                "Alias": "Big Red Dot",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Tsunami"
+            },
+            "Biggushotto": {
+                "Real Name": "Biggushotto",
+                "Alias": "Bigshot",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": null
+            },
+            "Buriareosu": {
+                "Real Name": "Buriareosu",
+                "Alias": "Briareos",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Unknown Multiple Arm Quirk"
+            },
+            "Sh\u016bzenji Chiyo": {
+                "Real Name": "Sh\u016bzenji Chiyo",
+                "Alias": "Youthful Heroine: Recovery Girl ",
+                "Birthday": "April 4th",
+                "Gender": "Female",
+                "Height": "115cm (3'9\")",
+                "Quirk": "Heal"
+            },
+            "Kurisutof\u0101 Sukairain": {
+                "Real Name": "Kurisutof\u0101 Sukairain",
+                "Alias": "Captain Celebrity ",
+                "Birthday": "July 4th",
+                "Gender": "Male",
+                "Height": "200 cm (6'7\")",
+                "Quirk": "Flight"
+            },
+            "Kurea Boyansu": {
+                "Real Name": "Kurea Boyansu",
+                "Alias": "Claire Voyance",
+                "Birthday": null,
+                "Gender": "Female",
+                "Height": null,
+                "Quirk": "Clairvoyance"
+            },
+            "Kau Redi": {
+                "Real Name": "Kau Redi",
+                "Alias": "Cow Lady",
+                "Birthday": "June 10th",
+                "Gender": "Female",
+                "Height": "172 cm (5'8\")",
+                "Quirk": "Cow"
+            },
+            "Kurimuzon Raiotto": {
+                "Real Name": "Kurimuzon Raiotto",
+                "Alias": "Crimson Riot",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Unnamed hardening Quirk"
+            },
+            "Kurasuto": {
+                "Real Name": "Kurasuto",
+                "Alias": "Shield Hero: Crust ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Shield"
+            },
+            "Banj\u014d Daigor\u014d": {
+                "Real Name": "Banj\u014d Daigor\u014d",
+                "Alias": "Lariat ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Blackwhip"
+            },
+            "Desutegoro": {
+                "Real Name": "Desutegoro",
+                "Alias": "Death Arms",
+                "Birthday": "November 1",
+                "Gender": "Male",
+                "Height": "205cm",
+                "Quirk": "Unnamed Arm Strength Quirk"
+            },
+            "Ekutopurazumu": {
+                "Real Name": "Ekutopurazumu",
+                "Alias": "Ectoplasm",
+                "Birthday": "March 23",
+                "Gender": "Male",
+                "Height": "180 cm (5' 11\")",
+                "Quirk": "Clones"
+            },
+            "Ereku Puranto": {
+                "Real Name": "Ereku Puranto",
+                "Alias": "Electoplant",
+                "Birthday": "March 25th",
+                "Gender": "Male",
+                "Height": "185 cm",
+                "Quirk": "Electricity Generation"
+            },
+            "Fukukado Emi": {
+                "Real Name": "Fukukado Emi",
+                "Alias": "Smile Hero: Ms. Joke ",
+                "Birthday": "February 5",
+                "Gender": "Female",
+                "Height": "166cm (5'5\")",
+                "Quirk": "Outburst"
+            },
+            "En": {
+                "Real Name": "En",
+                "Alias": "En",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Smokescreen"
+            },
+            "Eniguma": {
+                "Real Name": "Eniguma",
+                "Alias": "Enigma",
+                "Birthday": null,
+                "Gender": "Female",
+                "Height": null,
+                "Quirk": "Unnamed Mass Expansion Quirk"
+            },
+            "Todoroki Enji": {
+                "Real Name": "Todoroki Enji",
+                "Alias": "Flame Hero: Endeavor ",
+                "Birthday": "August 8",
+                "Gender": "Male",
+                "Height": "195 cm (6'4\u00be\")",
+                "Quirk": "Hellflame"
+            },
+            "Kan'nagi Enma": {
+                "Real Name": "Kan'nagi Enma",
+                "Alias": "Magic Hero: Majestic ",
+                "Birthday": "January 4",
+                "Gender": "Male",
+                "Height": "183 cm (6'0\")",
+                "Quirk": "Magic"
+            },
+            "F\u014dsu Kaindo": {
+                "Real Name": "F\u014dsu Kaindo",
+                "Alias": "Chivalrous Hero: Fourth Kind ",
+                "Birthday": "February 16",
+                "Gender": "Male",
+                "Height": "184 cm",
+                "Quirk": "Quad Arms"
+            },
+            "Gojiro": {
+                "Real Name": "Gojiro",
+                "Alias": "Godzillo",
+                "Birthday": "November 3",
+                "Gender": "Male",
+                "Height": "400cm",
+                "Quirk": "Toho"
+            },
+            "Gunhead": {
+                "Real Name": null,
+                "Alias": "Battle Hero: Gunhead ",
+                "Birthday": "May 7th",
+                "Gender": "Male",
+                "Height": "190 cm (6'3\")",
+                "Quirk": "Gatling"
+            },
+            "Gyugesu": {
+                "Real Name": "Gyugesu",
+                "Alias": "Gyges",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Unknown Multiple Arm Quirk"
+            },
+            "Maijima Higari": {
+                "Real Name": "Maijima Higari",
+                "Alias": "Excavation Hero \"Power Loader\" ",
+                "Birthday": "September 17",
+                "Gender": "Male",
+                "Height": "155 cm (5'1\")",
+                "Quirk": "Iron Claws"
+            },
+            "Shinomori Hikage": {
+                "Real Name": "Shinomori Hikage",
+                "Alias": "Hikage Shinomori",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Danger Sense"
+            },
+            "Yamada Hizashi": {
+                "Real Name": "Yamada Hizashi",
+                "Alias": "Voice Hero: Present Mic ",
+                "Birthday": "July 7",
+                "Gender": "Male",
+                "Height": "185 cm (6'1\")",
+                "Quirk": "Voice"
+            },
+            "Hario Hokuto": {
+                "Real Name": "Hario Hokuto",
+                "Alias": "Compass Kid ",
+                "Birthday": "September 13",
+                "Gender": "Male",
+                "Height": "189 cm (6'2 \u00bd\")",
+                "Quirk": "Pointer"
+            },
+            "Oguro Iwao": {
+                "Real Name": "Oguro Iwao",
+                "Alias": "Knuckleduster ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": "185cm (6'1\")",
+                "Quirk": "Overclock"
+            },
+            "Moashi J\u016bz\u014d": {
+                "Real Name": "Moashi J\u016bz\u014d",
+                "Alias": "Centipeder ",
+                "Birthday": "June 4",
+                "Gender": "Male",
+                "Height": "205 cm",
+                "Quirk": "Centipede"
+            },
+            "Awata Kaoruko": {
+                "Real Name": "Awata Kaoruko",
+                "Alias": "Bubble Girl ",
+                "Birthday": "April 23",
+                "Gender": "Female",
+                "Height": "167 cm (5'6\")",
+                "Quirk": "Bubble"
+            },
+            "Takami Keigo": {
+                "Real Name": "Takami Keigo",
+                "Alias": "Wing Hero: Hawks ",
+                "Birthday": "December 28",
+                "Gender": "Male",
+                "Height": "172cm (5'8\")",
+                "Quirk": "Fierce Wings"
+            },
+            "Ishiyama Ken": {
+                "Real Name": "Ishiyama Ken",
+                "Alias": "Cementoss ",
+                "Birthday": "March 22",
+                "Gender": "Male",
+                "Height": "185 cm (6'1\")",
+                "Quirk": "Cement"
+            },
+            "Takagi Ken": {
+                "Real Name": "Takagi Ken",
+                "Alias": "Lock Hero \"Rock Lock\" ",
+                "Birthday": "June 9",
+                "Gender": "Male",
+                "Height": "173 cm",
+                "Quirk": "Lock Down"
+            },
+            "Kesagiriman": {
+                "Real Name": "Kesagiriman",
+                "Alias": "Kesagiri Man",
+                "Birthday": "April 4",
+                "Gender": "Male",
+                "Height": "175cm (5'9\")",
+                "Quirk": null
+            },
+            "Kido": {
+                "Real Name": null,
+                "Alias": "Kido ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Traject"
+            },
+            "Sakamata K\u016bgo": {
+                "Real Name": "Sakamata K\u016bgo",
+                "Alias": "Gang Orca ",
+                "Birthday": "October 29",
+                "Gender": "Male",
+                "Height": "202 cm (6'6\")",
+                "Quirk": "Orcinus"
+            },
+            "Redi Nagan": {
+                "Real Name": "Redi Nagan",
+                "Alias": "Lady Nagant",
+                "Birthday": null,
+                "Gender": "Female",
+                "Height": null,
+                "Quirk": "Rifle"
+            },
+            "Ranchi Rasshu": {
+                "Real Name": "Ranchi Rasshu",
+                "Alias": "Cook Hero: Lunch Rush ",
+                "Birthday": "June 17",
+                "Gender": "Male",
+                "Height": "160cm (5'3\")",
+                "Quirk": "Unknown Quirk"
+            },
+            "Mizushima Masaki": {
+                "Real Name": "Mizushima Masaki",
+                "Alias": "Normal Hero: Manual ",
+                "Birthday": "December 5",
+                "Gender": "Male",
+                "Height": "176 cm",
+                "Quirk": "Unnamed Water Quirk"
+            },
+            "Mikku": {
+                "Real Name": "Mikku",
+                "Alias": "Mick",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": null
+            },
+            "Sasaki Mirai": {
+                "Real Name": "Sasaki Mirai",
+                "Alias": "Sir Nighteye ",
+                "Birthday": "January 2",
+                "Gender": "Male",
+                "Height": "200 cm (6'7\")",
+                "Quirk": "Foresight"
+            },
+            "Kamiji Moe": {
+                "Real Name": "Kamiji Moe",
+                "Alias": "Burnin ",
+                "Birthday": "January 18",
+                "Gender": "Female",
+                "Height": "169cm (5'6\")",
+                "Quirk": "Blazing Hair"
+            },
+            "Misut\u0101 Bureibu": {
+                "Real Name": "Misut\u0101 Bureibu",
+                "Alias": "Mr. Brave",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Hair-Raiser"
+            },
+            "Misut\u0101 Purasutikku": {
+                "Real Name": "Misut\u0101 Purasutikku",
+                "Alias": "Mr. Plastic",
+                "Birthday": "October 4th",
+                "Gender": "Male",
+                "Height": "190 cm (6'3\")",
+                "Quirk": "Plastic Transformation"
+            },
+            "Shimura Nana": {
+                "Real Name": "Shimura Nana",
+                "Alias": "Nana Shimura",
+                "Birthday": null,
+                "Gender": "Female",
+                "Height": null,
+                "Quirk": "Float"
+            },
+            "Neitivu": {
+                "Real Name": "Neitivu",
+                "Alias": "Native",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": null
+            },
+            "Kayama Nemuri": {
+                "Real Name": "Kayama Nemuri",
+                "Alias": "R-Rated Hero: Midnight ",
+                "Birthday": "March 9",
+                "Gender": "Female",
+                "Height": "175cm (5'9\")",
+                "Quirk": "Somnambulist"
+            },
+            "Nanb\u0101 Shikkusu": {
+                "Real Name": "Nanb\u0101 Shikkusu",
+                "Alias": "Rokuro Nomura ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Overclock"
+            },
+            "N\u012bkangu": {
+                "Real Name": "N\u012bkangu",
+                "Alias": "Nyikang",
+                "Birthday": "February 6th",
+                "Gender": "Male",
+                "Height": "188cm (6'2)",
+                "Quirk": "Spirit Possession"
+            },
+            "Oddoai": {
+                "Real Name": "Oddoai",
+                "Alias": "Odd Eye",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Involuntary Revelation"
+            },
+            "Shin'ya Onemu": {
+                "Real Name": "Shin'ya Onemu",
+                "Alias": "Onemu Shinya",
+                "Birthday": null,
+                "Gender": "Female",
+                "Height": null,
+                "Quirk": null
+            },
+            "Onima": {
+                "Real Name": null,
+                "Alias": "Onima ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Unknown"
+            },
+            "Pankurachion": {
+                "Real Name": "Pankurachion",
+                "Alias": "Pankration",
+                "Birthday": "March 3rd",
+                "Gender": "Male",
+                "Height": "190 cm (6'3\")",
+                "Quirk": "Power"
+            },
+            "Usagiyama Rumi": {
+                "Real Name": "Usagiyama Rumi",
+                "Alias": "Rabbit Hero: Mirko ",
+                "Birthday": "March 1",
+                "Gender": "Female",
+                "Height": "159cm",
+                "Quirk": "Rabbit"
+            },
+            "Inui Ry\u014d": {
+                "Real Name": "Inui Ry\u014d",
+                "Alias": "Hound Hero: Hound Dog ",
+                "Birthday": "November 15",
+                "Gender": "Male",
+                "Height": "196 cm ",
+                "Quirk": "Dog"
+            },
+            "Tatsuma Ry\u016bko": {
+                "Real Name": "Tatsuma Ry\u016bko",
+                "Alias": "Dragoon Hero \"Ryukyu\" ",
+                "Birthday": "September 22",
+                "Gender": "Female",
+                "Height": "166 cm (5'5)",
+                "Quirk": "Dragon"
+            },
+            "Tsuchikawa Ry\u016bko": {
+                "Real Name": "Tsuchikawa Ry\u016bko",
+                "Alias": "Pixie-Bob ",
+                "Birthday": "June 26",
+                "Gender": "Female",
+                "Height": "167cm (5'6\")",
+                "Quirk": "Earth Flow"
+            },
+            "Higawara Sajin": {
+                "Real Name": "Higawara Sajin",
+                "Alias": "Sand Hero: Snatch ",
+                "Birthday": "April 14",
+                "Gender": "Male",
+                "Height": "180 cm (5'11) ",
+                "Quirk": "Sandstorm"
+            },
+            "Sar\u0101mu": {
+                "Real Name": "Sar\u0101mu",
+                "Alias": "Salaam",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Papyrus"
+            },
+            "Kan Sekijir\u014d": {
+                "Real Name": "Kan Sekijir\u014d",
+                "Alias": "Blood Hero: Vlad King ",
+                "Birthday": "November 10",
+                "Gender": "Male",
+                "Height": "194 cm (6'4 1/2\")",
+                "Quirk": "Blood Control"
+            },
+            "Seruk\u012b": {
+                "Real Name": "Seruk\u012b",
+                "Alias": "Sea Rescue Hero: Selkie ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": "195 cm (6'4\")",
+                "Quirk": "Spotted Seal"
+            },
+            "Sens\u014dji": {
+                "Real Name": "Sens\u014dji",
+                "Alias": "Mister Blaster",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Blast"
+            },
+            "Nishiya Shinji": {
+                "Real Name": "Nishiya Shinji",
+                "Alias": "Kamui Woods ",
+                "Birthday": "May 20th",
+                "Gender": "Male",
+                "Height": "168cm",
+                "Quirk": "Arbor"
+            },
+            "S\u014dsaki Shino": {
+                "Real Name": "S\u014dsaki Shino",
+                "Alias": "Mandalay ",
+                "Birthday": "May 1",
+                "Gender": "Female",
+                "Height": "168cm (5'6\")",
+                "Quirk": "Telepath"
+            },
+            "Kamihara Shin'ya": {
+                "Real Name": "Kamihara Shin'ya",
+                "Alias": "Ninja Hero: Edgeshot ",
+                "Birthday": "February 22",
+                "Gender": "Male",
+                "Height": "170 cm (5'7\")",
+                "Quirk": "Foldabody"
+            },
+            "Shishido": {
+                "Real Name": "Shishido",
+                "Alias": "Lion Hero: Shishido ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Unknown Quirk"
+            },
+            "Aizawa Sh\u014dta": {
+                "Real Name": "Aizawa Sh\u014dta",
+                "Alias": "Eraser Head ",
+                "Birthday": "November 8",
+                "Gender": "Male",
+                "Height": "183cm (6'0\")",
+                "Quirk": "Erasure"
+            },
+            "Saidokikku": {
+                "Real Name": "Saidokikku",
+                "Alias": "Sidekicks",
+                "Birthday": null,
+                "Gender": null,
+                "Height": null,
+                "Quirk": null
+            },
+            "Shiriusu": {
+                "Real Name": "Shiriusu",
+                "Alias": "Sirius",
+                "Birthday": null,
+                "Gender": "Female",
+                "Height": "165 cm (5'5\")",
+                "Quirk": "Good Ear"
+            },
+            "B\u0113sub\u014dru H\u012br\u014d Suragg\u0101": {
+                "Real Name": "B\u0113sub\u014dru H\u012br\u014d Suragg\u0101",
+                "Alias": "Baseball Hero: \"Slugger\"",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": null
+            },
+            "Sunaipu": {
+                "Real Name": "Sunaipu",
+                "Alias": "Snipe",
+                "Birthday": "November 7",
+                "Gender": "Male",
+                "Height": "181cm (5'11\")",
+                "Quirk": "Homing"
+            },
+            "Torino Sorahiko": {
+                "Real Name": "Torino Sorahiko",
+                "Alias": "Gran Torino ",
+                "Birthday": "January 28",
+                "Gender": "Male",
+                "Height": "120 cm (4'2\") (currently)",
+                "Quirk": "Jet"
+            },
+            "Toyomitsu Taishir\u014d": {
+                "Real Name": "Toyomitsu Taishir\u014d",
+                "Alias": "BMI Hero: Fat Gum ",
+                "Birthday": "August 8",
+                "Gender": "Male",
+                "Height": "250cm (8'2\") (Fat form)",
+                "Quirk": "Fat Absorption"
+            },
+            "Takahiro": {
+                "Real Name": "Takahiro",
+                "Alias": "Takahiro",
+                "Birthday": "May 1st",
+                "Gender": "Male",
+                "Height": "175cm (5'9\")",
+                "Quirk": "Eagle"
+            },
+            "Takeshita": {
+                "Real Name": "Takeshita",
+                "Alias": "Takeshita",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Unknown"
+            },
+            "Tokoname Tatsuyuki": {
+                "Real Name": "Tokoname Tatsuyuki",
+                "Alias": "Slidin' Go ",
+                "Birthday": "March 1",
+                "Gender": "Male",
+                "Height": "187 cm (6'2\")",
+                "Quirk": "Unnamed Sliding Quirk"
+            },
+            "Naka\u014dji Tenma": {
+                "Real Name": "Naka\u014dji Tenma",
+                "Alias": "His Purple Highness ",
+                "Birthday": "June 7th",
+                "Gender": "Male",
+                "Height": "185cm (6'1\")",
+                "Quirk": "Chest Hair"
+            },
+            "\u012ada Tensei": {
+                "Real Name": "\u012ada Tensei",
+                "Alias": "Turbo Hero: Ingenium ",
+                "Birthday": "July 22",
+                "Gender": "Male",
+                "Height": "183 cm (6'0\")",
+                "Quirk": "Engine"
+            },
+            "Za Furai": {
+                "Real Name": "Za Furai",
+                "Alias": "The Fly",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Unnamed Fly Quirk"
+            },
+            "J\u016b-san G\u014d": {
+                "Real Name": "J\u016b-san G\u014d",
+                "Alias": "Space Hero ",
+                "Birthday": "February 3",
+                "Gender": "Female",
+                "Height": "180 cm (5'11\")",
+                "Quirk": "Black Hole"
+            },
+            "Shiretoko Tomoko": {
+                "Real Name": "Shiretoko Tomoko",
+                "Alias": "Ragdoll ",
+                "Birthday": "April 8",
+                "Gender": "Female",
+                "Height": "166 cm (5'5\")",
+                "Quirk": "Search"
+            },
+            "Yagi Toshinori": {
+                "Real Name": "Yagi Toshinori",
+                "Alias": "All Might ",
+                "Birthday": "June 10",
+                "Gender": "Male",
+                "Height": "220cm (7'2\")",
+                "Quirk": "Quirkless"
+            },
+            "Hakamada Tsunagu": {
+                "Real Name": "Hakamada Tsunagu",
+                "Alias": "Fiber Hero: Best Jeanist ",
+                "Birthday": "October 5",
+                "Gender": "Male",
+                "Height": "190cm (6'3\")",
+                "Quirk": "Fiber Master"
+            },
+            "Uwabami": {
+                "Real Name": null,
+                "Alias": "Snake Hero: Uwabami ",
+                "Birthday": "December 9th",
+                "Gender": "Female",
+                "Height": "170 cm (5'7\")",
+                "Quirk": "Serpentress"
+            },
+            "Wosshu": {
+                "Real Name": "Wosshu",
+                "Alias": "Laundry Hero: Wash ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Unnamed Soapy Water Quirk"
+            },
+            "W\u014dt\u0101 H\u014dsu": {
+                "Real Name": "W\u014dt\u0101 H\u014dsu",
+                "Alias": "Water Hose",
+                "Birthday": null,
+                "Gender": null,
+                "Height": null,
+                "Quirk": null
+            },
+            "Batsu": {
+                "Real Name": "Batsu",
+                "Alias": "X",
+                "Birthday": "May 1st",
+                "Gender": "Female",
+                "Height": "175 cm (5'9\")",
+                "Quirk": "X Ray"
+            },
+            "Gangan H\u012br\u014d Ekusuresu": {
+                "Real Name": "Gangan H\u012br\u014d Ekusuresu",
+                "Alias": "X-Less",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Laser"
+            },
+            "Chatora Yawara": {
+                "Real Name": "Chatora Yawara",
+                "Alias": "Tiger ",
+                "Birthday": "February 29th",
+                "Gender": "Male",
+                "Height": "190cm (6'3\")",
+                "Quirk": "Pliabody"
+            },
+            "Yoroi Musha": {
+                "Real Name": null,
+                "Alias": "Equipped Hero: Yoroi Musha ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": null
+            },
+            "Takeyama Y\u016b": {
+                "Real Name": "Takeyama Y\u016b",
+                "Alias": "Mt. Lady ",
+                "Birthday": "August 11th",
+                "Gender": "Female",
+                "Height": "162cm (5'4\") (Normal form)",
+                "Quirk": "Gigantification"
+            }
+        },
+        "U.A._Staff": {
+            "Sh\u016bzenji Chiyo": {
+                "Real Name": "Sh\u016bzenji Chiyo",
+                "Alias": "Youthful Heroine: Recovery Girl ",
+                "Birthday": "April 4th",
+                "Gender": "Female",
+                "Height": "115cm (3'9\")",
+                "Quirk": "Heal"
+            },
+            "Ekutopurazumu": {
+                "Real Name": "Ekutopurazumu",
+                "Alias": "Ectoplasm",
+                "Birthday": "March 23",
+                "Gender": "Male",
+                "Height": "180 cm (5' 11\")",
+                "Quirk": "Clones"
+            },
+            "Maijima Higari": {
+                "Real Name": "Maijima Higari",
+                "Alias": "Excavation Hero \"Power Loader\" ",
+                "Birthday": "September 17",
+                "Gender": "Male",
+                "Height": "155 cm (5'1\")",
+                "Quirk": "Iron Claws"
+            },
+            "Yamada Hizashi": {
+                "Real Name": "Yamada Hizashi",
+                "Alias": "Voice Hero: Present Mic ",
+                "Birthday": "July 7",
+                "Gender": "Male",
+                "Height": "185 cm (6'1\")",
+                "Quirk": "Voice"
+            },
+            "Ishiyama Ken": {
+                "Real Name": "Ishiyama Ken",
+                "Alias": "Cementoss ",
+                "Birthday": "March 22",
+                "Gender": "Male",
+                "Height": "185 cm (6'1\")",
+                "Quirk": "Cement"
+            },
+            "Ranchi Rasshu": {
+                "Real Name": "Ranchi Rasshu",
+                "Alias": "Cook Hero: Lunch Rush ",
+                "Birthday": "June 17",
+                "Gender": "Male",
+                "Height": "160cm (5'3\")",
+                "Quirk": "Unknown Quirk"
+            },
+            "Kayama Nemuri": {
+                "Real Name": "Kayama Nemuri",
+                "Alias": "R-Rated Hero: Midnight ",
+                "Birthday": "March 9",
+                "Gender": "Female",
+                "Height": "175cm (5'9\")",
+                "Quirk": "Somnambulist"
+            },
+            "Nedzu": {
+                "Real Name": "Nedzu",
+                "Alias": "Nezu",
+                "Birthday": "January 1",
+                "Gender": "Male",
+                "Height": "85 cm",
+                "Quirk": "High Spec"
+            },
+            "Inui Ry\u014d": {
+                "Real Name": "Inui Ry\u014d",
+                "Alias": "Hound Hero: Hound Dog ",
+                "Birthday": "November 15",
+                "Gender": "Male",
+                "Height": "196 cm ",
+                "Quirk": "Dog"
+            },
+            "Kan Sekijir\u014d": {
+                "Real Name": "Kan Sekijir\u014d",
+                "Alias": "Blood Hero: Vlad King ",
+                "Birthday": "November 10",
+                "Gender": "Male",
+                "Height": "194 cm (6'4 1/2\")",
+                "Quirk": "Blood Control"
+            },
+            "Aizawa Sh\u014dta": {
+                "Real Name": "Aizawa Sh\u014dta",
+                "Alias": "Eraser Head ",
+                "Birthday": "November 8",
+                "Gender": "Male",
+                "Height": "183cm (6'0\")",
+                "Quirk": "Erasure"
+            },
+            "Sunaipu": {
+                "Real Name": "Sunaipu",
+                "Alias": "Snipe",
+                "Birthday": "November 7",
+                "Gender": "Male",
+                "Height": "181cm (5'11\")",
+                "Quirk": "Homing"
+            },
+            "Torino Sorahiko": {
+                "Real Name": "Torino Sorahiko",
+                "Alias": "Gran Torino ",
+                "Birthday": "January 28",
+                "Gender": "Male",
+                "Height": "120 cm (4'2\") (currently)",
+                "Quirk": "Jet"
+            },
+            "J\u016b-san G\u014d": {
+                "Real Name": "J\u016b-san G\u014d",
+                "Alias": "Space Hero ",
+                "Birthday": "February 3",
+                "Gender": "Female",
+                "Height": "180 cm (5'11\")",
+                "Quirk": "Black Hole"
+            },
+            "Yagi Toshinori": {
+                "Real Name": "Yagi Toshinori",
+                "Alias": "All Might ",
+                "Birthday": "June 10",
+                "Gender": "Male",
+                "Height": "220cm (7'2\")",
+                "Quirk": "Quirkless"
+            }
+        },
+        "U.A._Students": {
+            "Kenranzaki Bibimi": {
+                "Real Name": "Kenranzaki Bibimi",
+                "Alias": "Bibimi Kenranzaki",
+                "Birthday": "March 5",
+                "Gender": "Female",
+                "Height": "160cm (5'3\")",
+                "Quirk": null
+            },
+            "Togeike Chikuchi": {
+                "Real Name": "Togeike Chikuchi",
+                "Alias": "Chikuchi Togeike",
+                "Birthday": null,
+                "Gender": "Female",
+                "Height": null,
+                "Quirk": null
+            },
+            "Ichi-nen \u0112-gumi": {
+                "Real Name": "Ichi-nen \u0112-gumi",
+                "Alias": "Class 1-A",
+                "Birthday": null,
+                "Gender": null,
+                "Height": null,
+                "Quirk": null
+            },
+            "Class 1-B": {
+                "Real Name": null,
+                "Alias": "Class 1-B",
+                "Birthday": null,
+                "Gender": null,
+                "Height": null,
+                "Quirk": null
+            },
+            "Kaminari Denki": {
+                "Real Name": "Kaminari Denki",
+                "Alias": "Stun Gun Hero: Chargebolt ",
+                "Birthday": "June 29th",
+                "Gender": "Male",
+                "Height": "168cm (5'6\")",
+                "Quirk": "Electrification"
+            },
+            "Kirishima Eijir\u014d": {
+                "Real Name": "Kirishima Eijir\u014d",
+                "Alias": "Sturdy Hero: Red Riot ",
+                "Birthday": "October 16th",
+                "Gender": "Male",
+                "Height": "170cm (5'7\")",
+                "Quirk": "Hardening"
+            },
+            "Tokoyami Fumikage": {
+                "Real Name": "Tokoyami Fumikage",
+                "Alias": "Jet-Black Hero: Tsukuyomi ",
+                "Birthday": "October 30",
+                "Gender": "Male",
+                "Height": "158 cm (5' 2\u00bc\")",
+                "Quirk": "Dark Shadow"
+            },
+            "Sero Hanta": {
+                "Real Name": "Sero Hanta",
+                "Alias": "Taping Hero: Cellophane ",
+                "Birthday": "July 28th",
+                "Gender": "Male",
+                "Height": "177cm (5'9\u00be\")",
+                "Quirk": "Tape"
+            },
+            "Rin Hiry\u016b": {
+                "Real Name": "Rin Hiry\u016b",
+                "Alias": "Dragon Shroud ",
+                "Birthday": "July 14",
+                "Gender": "Male",
+                "Height": "170 cm (5'7\")",
+                "Quirk": "Scales"
+            },
+            "Shins\u014d Hitoshi": {
+                "Real Name": "Shins\u014d Hitoshi",
+                "Alias": "Hitoshi Shinso",
+                "Birthday": "July 1",
+                "Gender": "Male",
+                "Height": "177cm (5'9\u00be\")",
+                "Quirk": "Brainwashing"
+            },
+            "Shiozaki Ibara": {
+                "Real Name": "Shiozaki Ibara",
+                "Alias": "Vine ",
+                "Birthday": "September 8",
+                "Gender": "Female",
+                "Height": "167cm (5'6\")",
+                "Quirk": "Vines"
+            },
+            "Kend\u014d Itsuka": {
+                "Real Name": "Kend\u014d Itsuka",
+                "Alias": "Battle Fist ",
+                "Birthday": "September 9",
+                "Gender": "Female",
+                "Height": "166cm (5'5\u00bc\")",
+                "Quirk": "Big Fist"
+            },
+            "Shishida J\u016br\u014dta": {
+                "Real Name": "Shishida J\u016br\u014dta",
+                "Alias": "Gevaudan ",
+                "Birthday": "March 26",
+                "Gender": "Male",
+                "Height": "174cm (5'8\u00bd\")",
+                "Quirk": "Beast"
+            },
+            "Honenuki J\u016bz\u014d": {
+                "Real Name": "Honenuki J\u016bz\u014d",
+                "Alias": "Mudman ",
+                "Birthday": "June 20",
+                "Gender": "Male",
+                "Height": "174cm (5'8\u00bd\")",
+                "Quirk": "Softening"
+            },
+            "Bakug\u014d Katsuki": {
+                "Real Name": "Bakug\u014d Katsuki",
+                "Alias": "Kacchan ",
+                "Birthday": "April 20",
+                "Gender": "Male",
+                "Height": "172cm",
+                "Quirk": "Explosion"
+            },
+            "Komori Kinoko": {
+                "Real Name": "Komori Kinoko",
+                "Alias": "Shemage ",
+                "Birthday": "December 2",
+                "Gender": "Female",
+                "Height": "152 cm (4'11\u00be\")",
+                "Quirk": "Mushroom"
+            },
+            "K\u014dda K\u014dji": {
+                "Real Name": "K\u014dda K\u014dji",
+                "Alias": "Petting Hero: Anima ",
+                "Birthday": "February 1",
+                "Gender": "Male",
+                "Height": "186 cm (6' 1\u00bc\")",
+                "Quirk": "Anivoice"
+            },
+            "Bondo Kojir\u014d": {
+                "Real Name": "Bondo Kojir\u014d",
+                "Alias": "Plamo ",
+                "Birthday": "December 23",
+                "Gender": "Male",
+                "Height": "191 cm (6'3\")",
+                "Quirk": "Cemedine"
+            },
+            "Tsuburaba K\u014dsei": {
+                "Real Name": "Tsuburaba K\u014dsei",
+                "Alias": "Tsuburaba ",
+                "Birthday": "May 19",
+                "Gender": "Male",
+                "Height": "170 cm (5'7\")",
+                "Quirk": "Solid Air"
+            },
+            "Jir\u014d Ky\u014dka": {
+                "Real Name": "Jir\u014d Ky\u014dka",
+                "Alias": "Hearing Hero: Earphone Jack ",
+                "Birthday": "August 1",
+                "Gender": "Female",
+                "Height": "154cm (5'1\")",
+                "Quirk": "Earphone Jack"
+            },
+            "Fukidashi Manga": {
+                "Real Name": "Fukidashi Manga",
+                "Alias": "Comicman ",
+                "Birthday": "February 2",
+                "Gender": "Male",
+                "Height": "Varies between 140 cm (4'7\") and 160 cm (5'3\")",
+                "Quirk": "Comic"
+            },
+            "Ojiro Mashirao": {
+                "Real Name": "Ojiro Mashirao",
+                "Alias": "Martial Arts Hero: Tailman ",
+                "Birthday": "May 28",
+                "Gender": "Male",
+                "Height": "169 cm (5'6\")",
+                "Quirk": "Tail"
+            },
+            "Fuwa Mawata": {
+                "Real Name": "Fuwa Mawata",
+                "Alias": "Mawata Fuwa",
+                "Birthday": "May 10",
+                "Gender": "Female",
+                "Height": "155cm (5'1\")",
+                "Quirk": "Unknown Quirk"
+            },
+            "Hatsume Mei": {
+                "Real Name": "Hatsume Mei",
+                "Alias": "Mei Hatsume",
+                "Birthday": "April 18",
+                "Gender": "Female",
+                "Height": "157cm (5'1\u00be\")",
+                "Quirk": "Zoom"
+            },
+            "Sh\u014dji Mez\u014d": {
+                "Real Name": "Sh\u014dji Mez\u014d",
+                "Alias": "Tentacle Hero: Tentacole ",
+                "Birthday": "February 15",
+                "Gender": "Male",
+                "Height": "187 cm (6'2\")",
+                "Quirk": "Dupli-Arms"
+            },
+            "Ashido Mina": {
+                "Real Name": "Ashido Mina",
+                "Alias": "Pinky ",
+                "Birthday": "July 30",
+                "Gender": "Female",
+                "Height": "159cm (5'3\")",
+                "Quirk": "Acid"
+            },
+            "Mineta Minoru": {
+                "Real Name": "Mineta Minoru",
+                "Alias": "Fresh-Picked Hero: Grape Juice ",
+                "Birthday": "October 8",
+                "Gender": "Male",
+                "Height": "108cm (3' 6\")",
+                "Quirk": "Pop Off"
+            },
+            "T\u014dgata Mirio": {
+                "Real Name": "T\u014dgata Mirio",
+                "Alias": "Lemillion ",
+                "Birthday": "July 15",
+                "Gender": "Male",
+                "Height": "181cm (5'11\u00bc\")",
+                "Quirk": "Permeation"
+            },
+            "Yaoyorozu Momo": {
+                "Real Name": "Yaoyorozu Momo",
+                "Alias": "Everything Hero: Creati ",
+                "Birthday": "September 23",
+                "Gender": "Female",
+                "Height": "173 cm (5'8\")",
+                "Quirk": "Creation"
+            },
+            "Monoma Neito": {
+                "Real Name": "Monoma Neito",
+                "Alias": "Phantom Thief ",
+                "Birthday": "May 13",
+                "Gender": "Male",
+                "Height": "170 cm (5'7\")",
+                "Quirk": "Copy"
+            },
+            "Had\u014d Nejire": {
+                "Real Name": "Had\u014d Nejire",
+                "Alias": "Nejire Chan ",
+                "Birthday": "October 6",
+                "Gender": "Female",
+                "Height": "164cm (5'4\u00bd\")",
+                "Quirk": "Wave Motion"
+            },
+            "Sh\u014dda Nirengeki": {
+                "Real Name": "Sh\u014dda Nirengeki",
+                "Alias": "Mines ",
+                "Birthday": "February 2",
+                "Gender": "Male",
+                "Height": "165cm (5'5\")",
+                "Quirk": "Twin Impact"
+            },
+            "Uraraka Ochako": {
+                "Real Name": "Uraraka Ochako",
+                "Alias": "Uravity ",
+                "Birthday": "December 27",
+                "Gender": "Female",
+                "Height": "156cm (5'1\u00bd\")",
+                "Quirk": "Zero Gravity"
+            },
+            "Tsunotori Pon\u012b": {
+                "Real Name": "Tsunotori Pon\u012b",
+                "Alias": "Rocketti ",
+                "Birthday": "April 21",
+                "Gender": "Female",
+                "Height": "155cm (5'1\")",
+                "Quirk": "Horn Cannon"
+            },
+            "Yanagi Reiko": {
+                "Real Name": "Yanagi Reiko",
+                "Alias": "Emily ",
+                "Birthday": "February 11",
+                "Gender": "Female",
+                "Height": "165 cm (5'5\")",
+                "Quirk": "Poltergeist"
+            },
+            "Sat\u014d Rikid\u014d": {
+                "Real Name": "Sat\u014d Rikid\u014d",
+                "Alias": "Sweets Hero: Sugarman ",
+                "Birthday": "June 19",
+                "Gender": "Male",
+                "Height": "185cm (6'1\")",
+                "Quirk": "Sugar Rush"
+            },
+            "Kaibara Sen": {
+                "Real Name": "Kaibara Sen",
+                "Alias": "Spiral ",
+                "Birthday": "June 12",
+                "Gender": "Male",
+                "Height": "172 cm (5'7\u00bd\")",
+                "Quirk": "Gyrate"
+            },
+            "Tokage Setsuna": {
+                "Real Name": "Tokage Setsuna",
+                "Alias": "Lizardy ",
+                "Birthday": "October 13",
+                "Gender": "Female",
+                "Height": "158 cm (5'2\")",
+                "Quirk": "Lizard Tail Splitter"
+            },
+            "Kuroiro Shihai": {
+                "Real Name": "Kuroiro Shihai",
+                "Alias": "Scheming Hero: Vantablack ",
+                "Birthday": "November 1",
+                "Gender": "Male",
+                "Height": "176cm (5'9\u00bc\")",
+                "Quirk": "Black"
+            },
+            "Todoroki Sh\u014dto": {
+                "Real Name": "Todoroki Sh\u014dto",
+                "Alias": "Shoto ",
+                "Birthday": "January 11",
+                "Gender": "Male",
+                "Height": "176cm (5'9\u00bc\")",
+                "Quirk": "Half-Cold Half-Hot"
+            },
+            "Amajiki Tamaki": {
+                "Real Name": "Amajiki Tamaki",
+                "Alias": "Suneater ",
+                "Birthday": "March 4",
+                "Gender": "Male",
+                "Height": "177cm (5'8\")",
+                "Quirk": "Manifest"
+            },
+            "\u012ada Ten'ya": {
+                "Real Name": "\u012ada Ten'ya",
+                "Alias": "Turbo Hero: Ingenium ",
+                "Birthday": "August 22",
+                "Gender": "Male",
+                "Height": "179cm (5'10\u00bd\")",
+                "Quirk": "Engine"
+            },
+            "Tetsutetsu Tetsutetsu": {
+                "Real Name": "Tetsutetsu Tetsutetsu",
+                "Alias": "Real Steel ",
+                "Birthday": "October 16",
+                "Gender": "Male",
+                "Height": "174 cm (5'8\u00bd\")",
+                "Quirk": "Steel"
+            },
+            "Biggu Sur\u012b": {
+                "Real Name": "Biggu Sur\u012b",
+                "Alias": "The Big 3",
+                "Birthday": null,
+                "Gender": null,
+                "Height": null,
+                "Quirk": null
+            },
+            "Kamakiri Togaru": {
+                "Real Name": "Kamakiri Togaru",
+                "Alias": "Jack Mantis ",
+                "Birthday": "January 7",
+                "Gender": "Male",
+                "Height": "189 cm (6'2\")",
+                "Quirk": "Razor Sharp"
+            },
+            "Hagakure T\u014dru": {
+                "Real Name": "Hagakure T\u014dru",
+                "Alias": "Stealth Hero: Invisible Girl ",
+                "Birthday": "June 16",
+                "Gender": "Female",
+                "Height": "152cm (5'0\")",
+                "Quirk": "Invisibility"
+            },
+            "Agoyamato Tsutsutaka": {
+                "Real Name": "Agoyamato Tsutsutaka",
+                "Alias": "Tsutsutaka Agoyamato",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": null
+            },
+            "Asui Tsuyu": {
+                "Real Name": "Asui Tsuyu",
+                "Alias": "Rainy Season Hero: Froppy ",
+                "Birthday": "February 12",
+                "Gender": "Female",
+                "Height": "150cm (4'11\")",
+                "Quirk": "Frog"
+            },
+            "Awase Y\u014dsetsu": {
+                "Real Name": "Awase Y\u014dsetsu",
+                "Alias": "Welder ",
+                "Birthday": "November 7",
+                "Gender": "Male",
+                "Height": "172 cm (5'7\u00bd\")",
+                "Quirk": "Weld"
+            },
+            "Aoyama Y\u016bga": {
+                "Real Name": "Aoyama Y\u016bga",
+                "Alias": "Shining Hero: Can't Stop Twinkling ",
+                "Birthday": "May 30",
+                "Gender": "Male",
+                "Height": "168cm (5'6\")",
+                "Quirk": "Navel Laser"
+            },
+            "Kodai Yui": {
+                "Real Name": "Kodai Yui",
+                "Alias": "Rule ",
+                "Birthday": "December 19",
+                "Gender": "Female",
+                "Height": "160 cm (5'3\")",
+                "Quirk": "Size"
+            },
+            "Haya Y\u016byu": {
+                "Real Name": "Haya Y\u016byu",
+                "Alias": "Yuyu Haya",
+                "Birthday": "September 10",
+                "Gender": "Female",
+                "Height": "160cm (5'3\")",
+                "Quirk": null
+            }
+        },
+        "Villains": {
+            "Iwak\u014d Akira": {
+                "Real Name": "Iwak\u014d Akira",
+                "Alias": "Stone Villain ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Hardening"
+            },
+            "\u014cru F\u014d Wan": {
+                "Real Name": "\u014cru F\u014d Wan",
+                "Alias": "Master ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "All For One"
+            },
+            "Aran Kei": {
+                "Real Name": "Aran Kei",
+                "Alias": "Allen Kay",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": null
+            },
+            "Anonimasu": {
+                "Real Name": "Anonimasu",
+                "Alias": "Anonymous",
+                "Birthday": null,
+                "Gender": null,
+                "Height": null,
+                "Quirk": "Self-Detonation"
+            },
+            "Sako Atsuhiro": {
+                "Real Name": "Sako Atsuhiro",
+                "Alias": "Mr. Compress ",
+                "Birthday": "October 8",
+                "Gender": "Male",
+                "Height": "181cm (5'11\")",
+                "Quirk": "Compress"
+            },
+            "Yobayakawa Batto": {
+                "Real Name": "Yobayakawa Batto",
+                "Alias": "Bat Villain ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Bat"
+            },
+            "Beaheddo": {
+                "Real Name": "Beaheddo",
+                "Alias": "Bearhead",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Brown Bear"
+            },
+            "B\u012b\u2606Poppu": {
+                "Real Name": "B\u012b\u2606Poppu",
+                "Alias": "Bee%E2%98%86Pop",
+                "Birthday": null,
+                "Gender": "Female",
+                "Height": null,
+                "Quirk": "Queen Bee"
+            },
+            "Berosu": {
+                "Real Name": "Berosu",
+                "Alias": "Beros",
+                "Birthday": null,
+                "Gender": "Female",
+                "Height": null,
+                "Quirk": "Unnamed Archery Quirk"
+            },
+            "Bom\u0101": {
+                "Real Name": "Bom\u0101",
+                "Alias": "Bomber",
+                "Birthday": null,
+                "Gender": null,
+                "Height": null,
+                "Quirk": "Self-Detonation"
+            },
+            "Yotsubashi Chikara": {
+                "Real Name": "Yotsubashi Chikara",
+                "Alias": "Destro ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": null
+            },
+            "Kidzuki Chitose": {
+                "Real Name": "Kidzuki Chitose",
+                "Alias": "Curious ",
+                "Birthday": null,
+                "Gender": "Female",
+                "Height": null,
+                "Quirk": "Landmine"
+            },
+            "Akaguro Chizome": {
+                "Real Name": "Akaguro Chizome",
+                "Alias": "Hero Killer: Stain ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Bloodcurdle"
+            },
+            "Kon Ch\u014dj\u016br\u014d": {
+                "Real Name": "Kon Ch\u014dj\u016br\u014d",
+                "Alias": "Chimera ",
+                "Birthday": "October 4",
+                "Gender": "Male",
+                "Height": "208 cm",
+                "Quirk": "Chimera"
+            },
+            "Chomper": {
+                "Real Name": null,
+                "Alias": "Chomper",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Plant"
+            },
+            "Odebu": {
+                "Real Name": "Odebu",
+                "Alias": "Chubs",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Super Regeneration"
+            },
+            "Yakumaru Ch\u016bma": {
+                "Real Name": "Yakumaru Ch\u016bma",
+                "Alias": "Junkie Villain",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Strike"
+            },
+            "Kau Kau B\u014di": {
+                "Real Name": "Kau Kau B\u014di",
+                "Alias": "Cow Cowboy",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Control Horn"
+            },
+            "Kyur\u0113t\u0101": {
+                "Real Name": "Kyur\u0113t\u0101",
+                "Alias": "Curator",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Whale"
+            },
+            "Dabi": {
+                "Real Name": "Dabi",
+                "Alias": "Dabi ",
+                "Birthday": "January 18",
+                "Gender": "Male",
+                "Height": "176cm (5'9\u00bc\")",
+                "Quirk": "Cremation"
+            },
+            "Daigo": {
+                "Real Name": "Daigo",
+                "Alias": "Daigo",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Unnamed Beast Form Quirk"
+            },
+            "Tobita Danj\u016br\u014d": {
+                "Real Name": "Tobita Danj\u016br\u014d",
+                "Alias": "Gentle Criminal ",
+                "Birthday": "August 29",
+                "Gender": "Male",
+                "Height": "181cm (5'11\")",
+                "Quirk": "Elasticity"
+            },
+            "Dikuteit\u0101": {
+                "Real Name": "Dikuteit\u0101",
+                "Alias": "Dictator",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Despot"
+            },
+            "Doranku R\u012b": {
+                "Real Name": "Doranku R\u012b",
+                "Alias": "Drunk Lee",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Dragon Breath"
+            },
+            "\u014ckameda Eiji": {
+                "Real Name": "\u014ckameda Eiji",
+                "Alias": "Eiji Okameda",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Giant Flying Spinning Turtle"
+            },
+            "Z\u014d": {
+                "Real Name": "Z\u014d",
+                "Alias": "Eleph",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Super Regeneration"
+            },
+            "Enper\u0101 Yotsuura": {
+                "Real Name": "Enper\u0101 Yotsuura",
+                "Alias": "Soccer Villain ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Soccer"
+            },
+            "Endingu": {
+                "Real Name": "Endingu",
+                "Alias": "Ending",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Whiteline"
+            },
+            "Furekuto T\u0101n": {
+                "Real Name": "Furekuto T\u0101n",
+                "Alias": "Flect Turn",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": null
+            },
+            "Four-Armed Zealot": {
+                "Real Name": null,
+                "Alias": "Four-Armed Zealot",
+                "Birthday": null,
+                "Gender": null,
+                "Height": null,
+                "Quirk": "Extra Arms"
+            },
+            "G\u0101v\u012b": {
+                "Real Name": "G\u0101v\u012b",
+                "Alias": "Garvey",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Stock"
+            },
+            "Geten": {
+                "Real Name": "Geten",
+                "Alias": "Iceman ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Unnamed Ice Manipulation Quirk"
+            },
+            "Kyojin-ka Viran": {
+                "Real Name": "Kyojin-ka Viran",
+                "Alias": "Giant Villain",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Gigantification"
+            },
+            "Gigantomakia": {
+                "Real Name": "Gigantomakia",
+                "Alias": "Machia ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": "Varies, up to 2,500cm",
+                "Quirk": "Endurance"
+            },
+            "Imasuji G\u014dto": {
+                "Real Name": "Imasuji G\u014dto",
+                "Alias": "The Carnal Murderer: Muscular ",
+                "Birthday": "December 7",
+                "Gender": "Male",
+                "Height": "200cm (6'7\")",
+                "Quirk": "Muscle Augmentation"
+            },
+            "Gravitational Spring": {
+                "Real Name": null,
+                "Alias": "Gravitational Spring",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Unnamed tether Quirk"
+            },
+            "S\u014db\u014d Heddo Gia": {
+                "Real Name": "S\u014db\u014d Heddo Gia",
+                "Alias": "Habit Headgear",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Trap Flex"
+            },
+            "Hanzo Suiden": {
+                "Real Name": null,
+                "Alias": "Hanzo Suiden",
+                "Birthday": null,
+                "Gender": null,
+                "Height": null,
+                "Quirk": "Water Control"
+            },
+            "Hard Head": {
+                "Real Name": null,
+                "Alias": "Hard Head",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Muscle Expansion"
+            },
+            "Kurono Hari": {
+                "Real Name": "Kurono Hari",
+                "Alias": "Chronostasis ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Chronostasis"
+            },
+            "Haruhisa": {
+                "Real Name": "Haruhisa",
+                "Alias": "\"Sutegoro\" Haruhisa ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Unnamed Muscle Enlarging Quirk"
+            },
+            "Tengai Hekiji": {
+                "Real Name": "Tengai Hekiji",
+                "Alias": "Hekiji Tengai",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Barrier"
+            },
+            "Toga Himiko": {
+                "Real Name": "Toga Himiko",
+                "Alias": "Himiko Toga ",
+                "Birthday": "August 7",
+                "Gender": "Female",
+                "Height": "157cm (5'1\u00be\")",
+                "Quirk": "Transform"
+            },
+            "Hina": {
+                "Real Name": "Hina",
+                "Alias": "Hina",
+                "Birthday": null,
+                "Gender": "Female",
+                "Height": null,
+                "Quirk": null
+            },
+            "F\u016bdo": {
+                "Real Name": "F\u016bdo",
+                "Alias": "High-End ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Muscle Augmentation"
+            },
+            "Makihara H\u014dy\u014d": {
+                "Real Name": "Makihara H\u014dy\u014d",
+                "Alias": "Mummy ",
+                "Birthday": "February 22nd",
+                "Gender": "Male",
+                "Height": "192 cm (6'4\")",
+                "Quirk": "Mummification"
+            },
+            "Hotta Ichir\u014d": {
+                "Real Name": "Hotta Ichir\u014d",
+                "Alias": "Ichiro Hotta",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Locust"
+            },
+            "Takobe Ikajir\u014d": {
+                "Real Name": "Takobe Ikajir\u014d",
+                "Alias": "Octoid ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Octopus (Squid)"
+            },
+            "Insumasu": {
+                "Real Name": "Insumasu",
+                "Alias": "Innsmouth",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Octopus"
+            },
+            "Innsmouth%27s Siblings": {
+                "Real Name": null,
+                "Alias": "Innsmouth%27s Siblings",
+                "Birthday": null,
+                "Gender": null,
+                "Height": null,
+                "Quirk": "Unnamed Squid Quirks"
+            },
+            "Instant Villains": {
+                "Real Name": null,
+                "Alias": "Instant Villains",
+                "Birthday": null,
+                "Gender": null,
+                "Height": null,
+                "Quirk": null
+            },
+            "Invisible Wall": {
+                "Real Name": null,
+                "Alias": "Invisible Wall",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Chameleon"
+            },
+            "Bubaigawara Jin": {
+                "Real Name": "Bubaigawara Jin",
+                "Alias": "Twice ",
+                "Birthday": "May 10",
+                "Gender": "Male",
+                "Height": "178cm (5'10\")",
+                "Quirk": "Double"
+            },
+            "Hotta Jir\u014d": {
+                "Real Name": "Hotta Jir\u014d",
+                "Alias": "Jiro Hotta",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Locust"
+            },
+            "Jon": {
+                "Real Name": "Jon",
+                "Alias": "Johnny",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Warping"
+            },
+            "Irinaka J\u014di": {
+                "Real Name": "Irinaka J\u014di",
+                "Alias": "Mimic ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Mimicry"
+            },
+            "Okuta Kager\u014d": {
+                "Real Name": "Okuta Kager\u014d",
+                "Alias": "Giran ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Muddiness"
+            },
+            "Chisaki Kai": {
+                "Real Name": "Chisaki Kai",
+                "Alias": "Overhaul ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Overhaul"
+            },
+            "Rappa Kend\u014d": {
+                "Real Name": "Rappa Kend\u014d",
+                "Alias": "The Rapper ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Strongarm"
+            },
+            "Hikiishi Kenji": {
+                "Real Name": "Hikiishi Kenji",
+                "Alias": "Big Sis Magne ",
+                "Birthday": null,
+                "Gender": "Female",
+                "Height": null,
+                "Quirk": "Magnetism"
+            },
+            "Hasaki Kiruka": {
+                "Real Name": "Hasaki Kiruka",
+                "Alias": "Slice ",
+                "Birthday": "August 3rd",
+                "Gender": "Female",
+                "Height": "163cm (5'4\")",
+                "Quirk": "Slice"
+            },
+            "Hanabata K\u014dk\u016b": {
+                "Real Name": "Hanabata K\u014dk\u016b",
+                "Alias": "Trumpet ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Incite"
+            },
+            "Haizono Konako": {
+                "Real Name": "Haizono Konako",
+                "Alias": "Dusty Ash ",
+                "Birthday": null,
+                "Gender": "Female",
+                "Height": null,
+                "Quirk": "Dust"
+            },
+            "Hachisuka Kuin": {
+                "Real Name": "Hachisuka Kuin",
+                "Alias": "Kuin Hachisuka",
+                "Birthday": null,
+                "Gender": "Female",
+                "Height": "162cm (5'4\")",
+                "Quirk": "Queen Bee"
+            },
+            "Kurogiri": {
+                "Real Name": "Kurogiri",
+                "Alias": "Kurogiri",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Warp Gate"
+            },
+            "Garaki Ky\u016bdai": {
+                "Real Name": "Garaki Ky\u016bdai",
+                "Alias": "Daruma Ujiko ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Life Force"
+            },
+            "L.A. Villains": {
+                "Real Name": null,
+                "Alias": "L.A. Villains",
+                "Birthday": null,
+                "Gender": null,
+                "Height": null,
+                "Quirk": null
+            },
+            "Redi Nagan": {
+                "Real Name": "Redi Nagan",
+                "Alias": "Lady Nagant",
+                "Birthday": null,
+                "Gender": "Female",
+                "Height": null,
+                "Quirk": "Rifle"
+            },
+            "Reviatan": {
+                "Real Name": "Reviatan",
+                "Alias": "Leviathan",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Unnamed Water Quirk"
+            },
+            "Iwata Maguma": {
+                "Real Name": "Iwata Maguma",
+                "Alias": "Volcano ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Eruption"
+            },
+            "Aiba Manami": {
+                "Real Name": "Aiba Manami",
+                "Alias": "La Brava ",
+                "Birthday": "February 14th",
+                "Gender": "Female",
+                "Height": "111 cm",
+                "Quirk": "Love"
+            },
+            "Kugutsu Mario": {
+                "Real Name": "Kugutsu Mario",
+                "Alias": "Mario Kugutsu",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Bundodo"
+            },
+            "Martial Hair": {
+                "Real Name": null,
+                "Alias": "Martial Hair",
+                "Birthday": null,
+                "Gender": "Female",
+                "Height": null,
+                "Quirk": "Hair Control"
+            },
+            "Masut\u0101 B\u012bsuto": {
+                "Real Name": "Masut\u0101 B\u012bsuto",
+                "Alias": "Master Beast",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Unnamed Werewolf Quirk"
+            },
+            "Minotaurus": {
+                "Real Name": null,
+                "Alias": "Minotaurus",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Bull Head"
+            },
+            "Moka": {
+                "Real Name": "Moka",
+                "Alias": "Mocha",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Double"
+            },
+            "M\u016bnfisshu": {
+                "Real Name": "M\u016bnfisshu",
+                "Alias": "The Death Row Inmate: Moonfish ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Blade-Tooth"
+            },
+            "T\u014dchi Moyuru": {
+                "Real Name": "T\u014dchi Moyuru",
+                "Alias": "Moyuru Tochi",
+                "Birthday": "April 9th",
+                "Gender": "Male",
+                "Height": "185cm (6'0 \u215e\")",
+                "Quirk": "Flame"
+            },
+            "Muscle Man": {
+                "Real Name": null,
+                "Alias": "Muscle Man",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Charging Muscles"
+            },
+            "Masut\u0101do": {
+                "Real Name": "Masut\u0101do",
+                "Alias": "Mustard",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Gas"
+            },
+            "Needle Hair": {
+                "Real Name": null,
+                "Alias": "Needle Hair",
+                "Birthday": null,
+                "Gender": "Female",
+                "Height": null,
+                "Quirk": "Hair Control"
+            },
+            "Next-Level Villains": {
+                "Real Name": null,
+                "Alias": "Next-Level Villains",
+                "Birthday": null,
+                "Gender": null,
+                "Height": null,
+                "Quirk": null
+            },
+            "Nain": {
+                "Real Name": "Nain",
+                "Alias": "Nine",
+                "Birthday": "June 1st",
+                "Gender": "Male",
+                "Height": "189 cm (6'2\")",
+                "Quirk": "Weather Manipulation"
+            },
+            "Nobu": {
+                "Real Name": "Nobu",
+                "Alias": "Nobu",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Unnamed Displacement Quirk"
+            },
+            "Nomu": {
+                "Real Name": null,
+                "Alias": "Nomu",
+                "Birthday": null,
+                "Gender": null,
+                "Height": null,
+                "Quirk": "Various Quirks"
+            },
+            "Nomu (Chainsaw)": {
+                "Real Name": null,
+                "Alias": "Nomu (Chainsaw)",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Tool Arms"
+            },
+            "N\u014dmu (Hosu-shi Sh\u016bgeki)": {
+                "Real Name": "N\u014dmu (Hosu-shi Sh\u016bgeki)",
+                "Alias": "Nomu (Hosu)",
+                "Birthday": null,
+                "Gender": null,
+                "Height": null,
+                "Quirk": null
+            },
+            "N\u014dmu": {
+                "Real Name": "N\u014dmu",
+                "Alias": "Nomu (U.S.J.)",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": "195 cm (6'4\u00be\") (Pre-transformation)",
+                "Quirk": "Shock Absorption"
+            },
+            "Nanb\u0101 Shikkusu": {
+                "Real Name": "Nanb\u0101 Shikkusu",
+                "Alias": "Rokuro Nomura ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Overclock"
+            },
+            "Harima \u014cji": {
+                "Real Name": "Harima \u014cji",
+                "Alias": "Peerless Thief ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Unknown Quirk"
+            },
+            "Oxy-Man": {
+                "Real Name": null,
+                "Alias": "Oxy-Man",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Unnamed oxygen production Quirk"
+            },
+            "T\u014dkage Raputo": {
+                "Real Name": "T\u014dkage Raputo",
+                "Alias": "Rapt Tokage",
+                "Birthday": "July 15",
+                "Gender": "Male",
+                "Height": "165 cm (5'5\")",
+                "Quirk": "Lizard"
+            },
+            "Abara": {
+                "Real Name": "Abara",
+                "Alias": "Ribby",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Super Regeneration"
+            },
+            "En'\u014d Rikiya": {
+                "Real Name": "En'\u014d Rikiya",
+                "Alias": "Rikiya Eno",
+                "Birthday": null,
+                "Gender": null,
+                "Height": null,
+                "Quirk": "Giant Monkey"
+            },
+            "Katsukame Rikiya": {
+                "Real Name": "Katsukame Rikiya",
+                "Alias": "Rikiya Katsukame",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Vitality Stealing"
+            },
+            "Yotsubashi Rikiya": {
+                "Real Name": "Yotsubashi Rikiya",
+                "Alias": "Re-Destro ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Stress"
+            },
+            "Robber Villain": {
+                "Real Name": null,
+                "Alias": "Robber Villain",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Smoke"
+            },
+            "Robotto": {
+                "Real Name": "Robotto",
+                "Alias": "Robot",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Super Regeneration"
+            },
+            "Yonenaga Rojiya": {
+                "Real Name": "Yonenaga Rojiya",
+                "Alias": "\"Manhole\" Rojiya ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Unnamed Strength Enhancing Quirk"
+            },
+            "Gojiyama Ry\u016bichi": {
+                "Real Name": "Gojiyama Ry\u016bichi",
+                "Alias": "Ryuichi Gojiyama",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Kaiju"
+            },
+            "S\u0101pent\u0101zu": {
+                "Real Name": "S\u0101pent\u0101zu",
+                "Alias": "Serpenters",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": null
+            },
+            "Sharkyonara": {
+                "Real Name": null,
+                "Alias": "Sharkyonara",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Unnamed shark Quirk"
+            },
+            "Nemoto Shin": {
+                "Real Name": "Nemoto Shin",
+                "Alias": "Shin Nemoto",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Confession"
+            },
+            "Iguchi Sh\u016bichi": {
+                "Real Name": "Iguchi Sh\u016bichi",
+                "Alias": "Spinner ",
+                "Birthday": "August 8",
+                "Gender": "Male",
+                "Height": "174cm (5'8\")",
+                "Quirk": "Gecko"
+            },
+            "Sickle Claw": {
+                "Real Name": null,
+                "Alias": "Sickle Claw",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Iron Claws"
+            },
+            "Shidero": {
+                "Real Name": "Shidero",
+                "Alias": "Sidero",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Unnamed Iron Ball Quirk"
+            },
+            "Hedoro Viran": {
+                "Real Name": "Hedoro Viran",
+                "Alias": "Sludge Villain",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Unnamed Sludge Body Quirk"
+            },
+            "Kugisaki S\u014dga": {
+                "Real Name": "Kugisaki S\u014dga",
+                "Alias": "Spike Villain ",
+                "Birthday": "November 8",
+                "Gender": "Male",
+                "Height": "182 cm (5'11\u215d\")",
+                "Quirk": "Spike"
+            },
+            "S\u014dji": {
+                "Real Name": "S\u014dji",
+                "Alias": "\"Hammer\" Soji ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Unnamed Lightning Quirk"
+            },
+            "Tabe Soramitsu": {
+                "Real Name": "Tabe Soramitsu",
+                "Alias": "Soramitsu Tabe",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Food"
+            },
+            "Hoshi no shimobe": {
+                "Real Name": "Hoshi no shimobe",
+                "Alias": "Starservant",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Unnamed Glass Manipulation Quirk"
+            },
+            "Steel Bulwark": {
+                "Real Name": null,
+                "Alias": "Steel Bulwark",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Body Morph"
+            },
+            "Stitched Giant": {
+                "Real Name": null,
+                "Alias": "Stitched Giant",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Mutant Bovini"
+            },
+            "Suicide Bomber": {
+                "Real Name": null,
+                "Alias": "Suicide Bomber",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Suicide Bomb"
+            },
+            "Sokiru": {
+                "Real Name": "Sokiru",
+                "Alias": "Swordkil",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Unnamed sword Quirk"
+            },
+            "Tokoname Tatsuyuki": {
+                "Real Name": "Tokoname Tatsuyuki",
+                "Alias": "Slidin' Go ",
+                "Birthday": "March 1",
+                "Gender": "Male",
+                "Height": "187 cm (6'2\")",
+                "Quirk": "Unnamed Sliding Quirk"
+            },
+            "Hazukashi Teruo": {
+                "Real Name": "Hazukashi Teruo",
+                "Alias": "Teruo Hazukashi",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Shame"
+            },
+            "Unagisawa Teruo": {
+                "Real Name": "Unagisawa Teruo",
+                "Alias": "Electric Eel Villain ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Eel"
+            },
+            "Tesla": {
+                "Real Name": null,
+                "Alias": "Tesla",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Electric Charge"
+            },
+            "Tetsu": {
+                "Real Name": "Tetsu",
+                "Alias": "Tank Tetsu ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Unnamed Armor Quirk"
+            },
+            "Thousand Eyes": {
+                "Real Name": null,
+                "Alias": "Thousand Eyes",
+                "Birthday": null,
+                "Gender": "Genderless",
+                "Height": null,
+                "Quirk": "Curse"
+            },
+            "Tom\u012b S G\u014ddon": {
+                "Real Name": "Tom\u012b S G\u014ddon",
+                "Alias": "Tommy S. Gordon",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Steam Locomotive"
+            },
+            "Chikazoku Tomoyasu": {
+                "Real Name": "Chikazoku Tomoyasu",
+                "Alias": "Skeptic ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Anthropomorph"
+            },
+            "Shigaraki Tomura": {
+                "Real Name": "Shigaraki Tomura",
+                "Alias": "Tomura Shigaraki",
+                "Birthday": "April 4",
+                "Gender": "Male",
+                "Height": "175cm (5'9\")",
+                "Quirk": "Decay"
+            },
+            "Dokudoku Ch\u0113ns\u014d": {
+                "Real Name": "Dokudoku Ch\u0113ns\u014d",
+                "Alias": "Toxic Chainsaw",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Unknown"
+            },
+            "Setsuno T\u014dya": {
+                "Real Name": "Setsuno T\u014dya",
+                "Alias": "Toya Setsuno",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Larceny"
+            },
+            "Kazetani Tsumuji": {
+                "Real Name": "Kazetani Tsumuji",
+                "Alias": "Gust Boy ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Fan"
+            },
+            "Victor": {
+                "Real Name": null,
+                "Alias": "Victor",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Unnamed finger gun Quirk"
+            },
+            "Viran": {
+                "Real Name": "Viran",
+                "Alias": "Villains",
+                "Birthday": null,
+                "Gender": null,
+                "Height": null,
+                "Quirk": null
+            },
+            "Wir\u012b Wanda": {
+                "Real Name": "Wir\u012b Wanda",
+                "Alias": "Willie Wanda",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Diesel Locomotive"
+            },
+            "Worufuramu": {
+                "Real Name": "Worufuramu",
+                "Alias": "Wolfram",
+                "Birthday": "July 4",
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Metal Manipulation"
+            },
+            "\u016aman": {
+                "Real Name": "\u016aman",
+                "Alias": "Woman",
+                "Birthday": null,
+                "Gender": "Female",
+                "Height": null,
+                "Quirk": "Super Regeneration"
+            },
+            "H\u014dj\u014d Y\u016b": {
+                "Real Name": "H\u014dj\u014d Y\u016b",
+                "Alias": "Yu Hojo",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Crystallize"
+            },
+            "Z\u016bk\u012bp\u0101": {
+                "Real Name": "Z\u016bk\u012bp\u0101",
+                "Alias": "Zookeeper",
+                "Birthday": "August 17",
+                "Gender": "Female",
+                "Height": null,
+                "Quirk": "Cleaning"
+            }
+        },
+        "Vigilantes": {
+            "Akaguro Chizome": {
+                "Real Name": "Akaguro Chizome",
+                "Alias": "Hero Killer: Stain ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": null,
+                "Quirk": "Bloodcurdle"
+            },
+            "Oguro Iwao": {
+                "Real Name": "Oguro Iwao",
+                "Alias": "Knuckleduster ",
+                "Birthday": null,
+                "Gender": "Male",
+                "Height": "185cm (6'1\")",
+                "Quirk": "Overclock"
+            },
+            "Haneyama Kazuho": {
+                "Real Name": "Haneyama Kazuho",
+                "Alias": "Pop\u2606Step ",
+                "Birthday": "May 28",
+                "Gender": "Female",
+                "Height": "158 cm (5'2\")",
+                "Quirk": "Leap"
+            },
+            "Haimawari K\u014dichi": {
+                "Real Name": "Haimawari K\u014dichi",
+                "Alias": "The Crawler ",
+                "Birthday": "February 22",
+                "Gender": "Male",
+                "Height": "172 cm (5'8\")",
+                "Quirk": "Slide and Glide"
+            },
+            "T\u014dchi Moyuru": {
+                "Real Name": "T\u014dchi Moyuru",
+                "Alias": "Moyuru Tochi",
+                "Birthday": "April 9th",
+                "Gender": "Male",
+                "Height": "185cm (6'0 \u215e\")",
+                "Quirk": "Flame"
+            },
+            "Naruhata Vigilantes": {
+                "Real Name": null,
+                "Alias": "Naruhata Vigilantes",
+                "Birthday": null,
+                "Gender": null,
+                "Height": null,
+                "Quirk": null
+            },
+            "T\u014dkage Raputo": {
+                "Real Name": "T\u014dkage Raputo",
+                "Alias": "Rapt Tokage",
+                "Birthday": "July 15",
+                "Gender": "Male",
+                "Height": "165 cm (5'5\")",
+                "Quirk": "Lizard"
+            },
+            "Kugisaki S\u014dga": {
+                "Real Name": "Kugisaki S\u014dga",
+                "Alias": "Spike Villain ",
+                "Birthday": "November 8",
+                "Gender": "Male",
+                "Height": "182 cm (5'11\u215d\")",
+                "Quirk": "Spike"
+            },
+            "Vijirante": {
+                "Real Name": "Vijirante",
+                "Alias": "Vigilantes",
+                "Birthday": null,
+                "Gender": null,
+                "Height": null,
+                "Quirk": null
+            }
+        }
+    },
+    "Complete Information": {
+        "Pro_Heroes": {
+            "Sh\u016bzenji Chiyo": {
+                "Real Name": "Sh\u016bzenji Chiyo",
+                "Alias": "Youthful Heroine: Recovery Girl ",
+                "Birthday": "April 4th",
+                "Gender": "Female",
+                "Height": "115cm (3'9\")",
+                "Quirk": "Heal"
+            },
+            "Kurisutof\u0101 Sukairain": {
+                "Real Name": "Kurisutof\u0101 Sukairain",
+                "Alias": "Captain Celebrity ",
+                "Birthday": "July 4th",
+                "Gender": "Male",
+                "Height": "200 cm (6'7\")",
+                "Quirk": "Flight"
+            },
+            "Fukukado Emi": {
+                "Real Name": "Fukukado Emi",
+                "Alias": "Smile Hero: Ms. Joke ",
+                "Birthday": "February 5",
+                "Gender": "Female",
+                "Height": "166cm (5'5\")",
+                "Quirk": "Outburst"
+            },
+            "Todoroki Enji": {
+                "Real Name": "Todoroki Enji",
+                "Alias": "Flame Hero: Endeavor ",
+                "Birthday": "August 8",
+                "Gender": "Male",
+                "Height": "195 cm (6'4\u00be\")",
+                "Quirk": "Hellflame"
+            },
+            "Kan'nagi Enma": {
+                "Real Name": "Kan'nagi Enma",
+                "Alias": "Magic Hero: Majestic ",
+                "Birthday": "January 4",
+                "Gender": "Male",
+                "Height": "183 cm (6'0\")",
+                "Quirk": "Magic"
+            },
+            "F\u014dsu Kaindo": {
+                "Real Name": "F\u014dsu Kaindo",
+                "Alias": "Chivalrous Hero: Fourth Kind ",
+                "Birthday": "February 16",
+                "Gender": "Male",
+                "Height": "184 cm",
+                "Quirk": "Quad Arms"
+            },
+            "Maijima Higari": {
+                "Real Name": "Maijima Higari",
+                "Alias": "Excavation Hero \"Power Loader\" ",
+                "Birthday": "September 17",
+                "Gender": "Male",
+                "Height": "155 cm (5'1\")",
+                "Quirk": "Iron Claws"
+            },
+            "Yamada Hizashi": {
+                "Real Name": "Yamada Hizashi",
+                "Alias": "Voice Hero: Present Mic ",
+                "Birthday": "July 7",
+                "Gender": "Male",
+                "Height": "185 cm (6'1\")",
+                "Quirk": "Voice"
+            },
+            "Hario Hokuto": {
+                "Real Name": "Hario Hokuto",
+                "Alias": "Compass Kid ",
+                "Birthday": "September 13",
+                "Gender": "Male",
+                "Height": "189 cm (6'2 \u00bd\")",
+                "Quirk": "Pointer"
+            },
+            "Moashi J\u016bz\u014d": {
+                "Real Name": "Moashi J\u016bz\u014d",
+                "Alias": "Centipeder ",
+                "Birthday": "June 4",
+                "Gender": "Male",
+                "Height": "205 cm",
+                "Quirk": "Centipede"
+            },
+            "Awata Kaoruko": {
+                "Real Name": "Awata Kaoruko",
+                "Alias": "Bubble Girl ",
+                "Birthday": "April 23",
+                "Gender": "Female",
+                "Height": "167 cm (5'6\")",
+                "Quirk": "Bubble"
+            },
+            "Takami Keigo": {
+                "Real Name": "Takami Keigo",
+                "Alias": "Wing Hero: Hawks ",
+                "Birthday": "December 28",
+                "Gender": "Male",
+                "Height": "172cm (5'8\")",
+                "Quirk": "Fierce Wings"
+            },
+            "Ishiyama Ken": {
+                "Real Name": "Ishiyama Ken",
+                "Alias": "Cementoss ",
+                "Birthday": "March 22",
+                "Gender": "Male",
+                "Height": "185 cm (6'1\")",
+                "Quirk": "Cement"
+            },
+            "Takagi Ken": {
+                "Real Name": "Takagi Ken",
+                "Alias": "Lock Hero \"Rock Lock\" ",
+                "Birthday": "June 9",
+                "Gender": "Male",
+                "Height": "173 cm",
+                "Quirk": "Lock Down"
+            },
+            "Sakamata K\u016bgo": {
+                "Real Name": "Sakamata K\u016bgo",
+                "Alias": "Gang Orca ",
+                "Birthday": "October 29",
+                "Gender": "Male",
+                "Height": "202 cm (6'6\")",
+                "Quirk": "Orcinus"
+            },
+            "Ranchi Rasshu": {
+                "Real Name": "Ranchi Rasshu",
+                "Alias": "Cook Hero: Lunch Rush ",
+                "Birthday": "June 17",
+                "Gender": "Male",
+                "Height": "160cm (5'3\")",
+                "Quirk": "Unknown Quirk"
+            },
+            "Mizushima Masaki": {
+                "Real Name": "Mizushima Masaki",
+                "Alias": "Normal Hero: Manual ",
+                "Birthday": "December 5",
+                "Gender": "Male",
+                "Height": "176 cm",
+                "Quirk": "Unnamed Water Quirk"
+            },
+            "Sasaki Mirai": {
+                "Real Name": "Sasaki Mirai",
+                "Alias": "Sir Nighteye ",
+                "Birthday": "January 2",
+                "Gender": "Male",
+                "Height": "200 cm (6'7\")",
+                "Quirk": "Foresight"
+            },
+            "Kamiji Moe": {
+                "Real Name": "Kamiji Moe",
+                "Alias": "Burnin ",
+                "Birthday": "January 18",
+                "Gender": "Female",
+                "Height": "169cm (5'6\")",
+                "Quirk": "Blazing Hair"
+            },
+            "Kayama Nemuri": {
+                "Real Name": "Kayama Nemuri",
+                "Alias": "R-Rated Hero: Midnight ",
+                "Birthday": "March 9",
+                "Gender": "Female",
+                "Height": "175cm (5'9\")",
+                "Quirk": "Somnambulist"
+            },
+            "Usagiyama Rumi": {
+                "Real Name": "Usagiyama Rumi",
+                "Alias": "Rabbit Hero: Mirko ",
+                "Birthday": "March 1",
+                "Gender": "Female",
+                "Height": "159cm",
+                "Quirk": "Rabbit"
+            },
+            "Inui Ry\u014d": {
+                "Real Name": "Inui Ry\u014d",
+                "Alias": "Hound Hero: Hound Dog ",
+                "Birthday": "November 15",
+                "Gender": "Male",
+                "Height": "196 cm ",
+                "Quirk": "Dog"
+            },
+            "Tatsuma Ry\u016bko": {
+                "Real Name": "Tatsuma Ry\u016bko",
+                "Alias": "Dragoon Hero \"Ryukyu\" ",
+                "Birthday": "September 22",
+                "Gender": "Female",
+                "Height": "166 cm (5'5)",
+                "Quirk": "Dragon"
+            },
+            "Tsuchikawa Ry\u016bko": {
+                "Real Name": "Tsuchikawa Ry\u016bko",
+                "Alias": "Pixie-Bob ",
+                "Birthday": "June 26",
+                "Gender": "Female",
+                "Height": "167cm (5'6\")",
+                "Quirk": "Earth Flow"
+            },
+            "Higawara Sajin": {
+                "Real Name": "Higawara Sajin",
+                "Alias": "Sand Hero: Snatch ",
+                "Birthday": "April 14",
+                "Gender": "Male",
+                "Height": "180 cm (5'11) ",
+                "Quirk": "Sandstorm"
+            },
+            "Kan Sekijir\u014d": {
+                "Real Name": "Kan Sekijir\u014d",
+                "Alias": "Blood Hero: Vlad King ",
+                "Birthday": "November 10",
+                "Gender": "Male",
+                "Height": "194 cm (6'4 1/2\")",
+                "Quirk": "Blood Control"
+            },
+            "Nishiya Shinji": {
+                "Real Name": "Nishiya Shinji",
+                "Alias": "Kamui Woods ",
+                "Birthday": "May 20th",
+                "Gender": "Male",
+                "Height": "168cm",
+                "Quirk": "Arbor"
+            },
+            "S\u014dsaki Shino": {
+                "Real Name": "S\u014dsaki Shino",
+                "Alias": "Mandalay ",
+                "Birthday": "May 1",
+                "Gender": "Female",
+                "Height": "168cm (5'6\")",
+                "Quirk": "Telepath"
+            },
+            "Kamihara Shin'ya": {
+                "Real Name": "Kamihara Shin'ya",
+                "Alias": "Ninja Hero: Edgeshot ",
+                "Birthday": "February 22",
+                "Gender": "Male",
+                "Height": "170 cm (5'7\")",
+                "Quirk": "Foldabody"
+            },
+            "Aizawa Sh\u014dta": {
+                "Real Name": "Aizawa Sh\u014dta",
+                "Alias": "Eraser Head ",
+                "Birthday": "November 8",
+                "Gender": "Male",
+                "Height": "183cm (6'0\")",
+                "Quirk": "Erasure"
+            },
+            "Torino Sorahiko": {
+                "Real Name": "Torino Sorahiko",
+                "Alias": "Gran Torino ",
+                "Birthday": "January 28",
+                "Gender": "Male",
+                "Height": "120 cm (4'2\") (currently)",
+                "Quirk": "Jet"
+            },
+            "Toyomitsu Taishir\u014d": {
+                "Real Name": "Toyomitsu Taishir\u014d",
+                "Alias": "BMI Hero: Fat Gum ",
+                "Birthday": "August 8",
+                "Gender": "Male",
+                "Height": "250cm (8'2\") (Fat form)",
+                "Quirk": "Fat Absorption"
+            },
+            "Tokoname Tatsuyuki": {
+                "Real Name": "Tokoname Tatsuyuki",
+                "Alias": "Slidin' Go ",
+                "Birthday": "March 1",
+                "Gender": "Male",
+                "Height": "187 cm (6'2\")",
+                "Quirk": "Unnamed Sliding Quirk"
+            },
+            "Naka\u014dji Tenma": {
+                "Real Name": "Naka\u014dji Tenma",
+                "Alias": "His Purple Highness ",
+                "Birthday": "June 7th",
+                "Gender": "Male",
+                "Height": "185cm (6'1\")",
+                "Quirk": "Chest Hair"
+            },
+            "\u012ada Tensei": {
+                "Real Name": "\u012ada Tensei",
+                "Alias": "Turbo Hero: Ingenium ",
+                "Birthday": "July 22",
+                "Gender": "Male",
+                "Height": "183 cm (6'0\")",
+                "Quirk": "Engine"
+            },
+            "J\u016b-san G\u014d": {
+                "Real Name": "J\u016b-san G\u014d",
+                "Alias": "Space Hero ",
+                "Birthday": "February 3",
+                "Gender": "Female",
+                "Height": "180 cm (5'11\")",
+                "Quirk": "Black Hole"
+            },
+            "Shiretoko Tomoko": {
+                "Real Name": "Shiretoko Tomoko",
+                "Alias": "Ragdoll ",
+                "Birthday": "April 8",
+                "Gender": "Female",
+                "Height": "166 cm (5'5\")",
+                "Quirk": "Search"
+            },
+            "Yagi Toshinori": {
+                "Real Name": "Yagi Toshinori",
+                "Alias": "All Might ",
+                "Birthday": "June 10",
+                "Gender": "Male",
+                "Height": "220cm (7'2\")",
+                "Quirk": "Quirkless"
+            },
+            "Hakamada Tsunagu": {
+                "Real Name": "Hakamada Tsunagu",
+                "Alias": "Fiber Hero: Best Jeanist ",
+                "Birthday": "October 5",
+                "Gender": "Male",
+                "Height": "190cm (6'3\")",
+                "Quirk": "Fiber Master"
+            },
+            "Chatora Yawara": {
+                "Real Name": "Chatora Yawara",
+                "Alias": "Tiger ",
+                "Birthday": "February 29th",
+                "Gender": "Male",
+                "Height": "190cm (6'3\")",
+                "Quirk": "Pliabody"
+            },
+            "Takeyama Y\u016b": {
+                "Real Name": "Takeyama Y\u016b",
+                "Alias": "Mt. Lady ",
+                "Birthday": "August 11th",
+                "Gender": "Female",
+                "Height": "162cm (5'4\") (Normal form)",
+                "Quirk": "Gigantification"
+            }
+        },
+        "U.A._Staff": {
+            "Sh\u016bzenji Chiyo": {
+                "Real Name": "Sh\u016bzenji Chiyo",
+                "Alias": "Youthful Heroine: Recovery Girl ",
+                "Birthday": "April 4th",
+                "Gender": "Female",
+                "Height": "115cm (3'9\")",
+                "Quirk": "Heal"
+            },
+            "Maijima Higari": {
+                "Real Name": "Maijima Higari",
+                "Alias": "Excavation Hero \"Power Loader\" ",
+                "Birthday": "September 17",
+                "Gender": "Male",
+                "Height": "155 cm (5'1\")",
+                "Quirk": "Iron Claws"
+            },
+            "Yamada Hizashi": {
+                "Real Name": "Yamada Hizashi",
+                "Alias": "Voice Hero: Present Mic ",
+                "Birthday": "July 7",
+                "Gender": "Male",
+                "Height": "185 cm (6'1\")",
+                "Quirk": "Voice"
+            },
+            "Ishiyama Ken": {
+                "Real Name": "Ishiyama Ken",
+                "Alias": "Cementoss ",
+                "Birthday": "March 22",
+                "Gender": "Male",
+                "Height": "185 cm (6'1\")",
+                "Quirk": "Cement"
+            },
+            "Ranchi Rasshu": {
+                "Real Name": "Ranchi Rasshu",
+                "Alias": "Cook Hero: Lunch Rush ",
+                "Birthday": "June 17",
+                "Gender": "Male",
+                "Height": "160cm (5'3\")",
+                "Quirk": "Unknown Quirk"
+            },
+            "Kayama Nemuri": {
+                "Real Name": "Kayama Nemuri",
+                "Alias": "R-Rated Hero: Midnight ",
+                "Birthday": "March 9",
+                "Gender": "Female",
+                "Height": "175cm (5'9\")",
+                "Quirk": "Somnambulist"
+            },
+            "Inui Ry\u014d": {
+                "Real Name": "Inui Ry\u014d",
+                "Alias": "Hound Hero: Hound Dog ",
+                "Birthday": "November 15",
+                "Gender": "Male",
+                "Height": "196 cm ",
+                "Quirk": "Dog"
+            },
+            "Kan Sekijir\u014d": {
+                "Real Name": "Kan Sekijir\u014d",
+                "Alias": "Blood Hero: Vlad King ",
+                "Birthday": "November 10",
+                "Gender": "Male",
+                "Height": "194 cm (6'4 1/2\")",
+                "Quirk": "Blood Control"
+            },
+            "Aizawa Sh\u014dta": {
+                "Real Name": "Aizawa Sh\u014dta",
+                "Alias": "Eraser Head ",
+                "Birthday": "November 8",
+                "Gender": "Male",
+                "Height": "183cm (6'0\")",
+                "Quirk": "Erasure"
+            },
+            "Torino Sorahiko": {
+                "Real Name": "Torino Sorahiko",
+                "Alias": "Gran Torino ",
+                "Birthday": "January 28",
+                "Gender": "Male",
+                "Height": "120 cm (4'2\") (currently)",
+                "Quirk": "Jet"
+            },
+            "J\u016b-san G\u014d": {
+                "Real Name": "J\u016b-san G\u014d",
+                "Alias": "Space Hero ",
+                "Birthday": "February 3",
+                "Gender": "Female",
+                "Height": "180 cm (5'11\")",
+                "Quirk": "Black Hole"
+            },
+            "Yagi Toshinori": {
+                "Real Name": "Yagi Toshinori",
+                "Alias": "All Might ",
+                "Birthday": "June 10",
+                "Gender": "Male",
+                "Height": "220cm (7'2\")",
+                "Quirk": "Quirkless"
+            }
+        },
+        "U.A._Students": {
+            "Kaminari Denki": {
+                "Real Name": "Kaminari Denki",
+                "Alias": "Stun Gun Hero: Chargebolt ",
+                "Birthday": "June 29th",
+                "Gender": "Male",
+                "Height": "168cm (5'6\")",
+                "Quirk": "Electrification"
+            },
+            "Kirishima Eijir\u014d": {
+                "Real Name": "Kirishima Eijir\u014d",
+                "Alias": "Sturdy Hero: Red Riot ",
+                "Birthday": "October 16th",
+                "Gender": "Male",
+                "Height": "170cm (5'7\")",
+                "Quirk": "Hardening"
+            },
+            "Tokoyami Fumikage": {
+                "Real Name": "Tokoyami Fumikage",
+                "Alias": "Jet-Black Hero: Tsukuyomi ",
+                "Birthday": "October 30",
+                "Gender": "Male",
+                "Height": "158 cm (5' 2\u00bc\")",
+                "Quirk": "Dark Shadow"
+            },
+            "Sero Hanta": {
+                "Real Name": "Sero Hanta",
+                "Alias": "Taping Hero: Cellophane ",
+                "Birthday": "July 28th",
+                "Gender": "Male",
+                "Height": "177cm (5'9\u00be\")",
+                "Quirk": "Tape"
+            },
+            "Rin Hiry\u016b": {
+                "Real Name": "Rin Hiry\u016b",
+                "Alias": "Dragon Shroud ",
+                "Birthday": "July 14",
+                "Gender": "Male",
+                "Height": "170 cm (5'7\")",
+                "Quirk": "Scales"
+            },
+            "Shiozaki Ibara": {
+                "Real Name": "Shiozaki Ibara",
+                "Alias": "Vine ",
+                "Birthday": "September 8",
+                "Gender": "Female",
+                "Height": "167cm (5'6\")",
+                "Quirk": "Vines"
+            },
+            "Kend\u014d Itsuka": {
+                "Real Name": "Kend\u014d Itsuka",
+                "Alias": "Battle Fist ",
+                "Birthday": "September 9",
+                "Gender": "Female",
+                "Height": "166cm (5'5\u00bc\")",
+                "Quirk": "Big Fist"
+            },
+            "Shishida J\u016br\u014dta": {
+                "Real Name": "Shishida J\u016br\u014dta",
+                "Alias": "Gevaudan ",
+                "Birthday": "March 26",
+                "Gender": "Male",
+                "Height": "174cm (5'8\u00bd\")",
+                "Quirk": "Beast"
+            },
+            "Honenuki J\u016bz\u014d": {
+                "Real Name": "Honenuki J\u016bz\u014d",
+                "Alias": "Mudman ",
+                "Birthday": "June 20",
+                "Gender": "Male",
+                "Height": "174cm (5'8\u00bd\")",
+                "Quirk": "Softening"
+            },
+            "Bakug\u014d Katsuki": {
+                "Real Name": "Bakug\u014d Katsuki",
+                "Alias": "Kacchan ",
+                "Birthday": "April 20",
+                "Gender": "Male",
+                "Height": "172cm",
+                "Quirk": "Explosion"
+            },
+            "Komori Kinoko": {
+                "Real Name": "Komori Kinoko",
+                "Alias": "Shemage ",
+                "Birthday": "December 2",
+                "Gender": "Female",
+                "Height": "152 cm (4'11\u00be\")",
+                "Quirk": "Mushroom"
+            },
+            "K\u014dda K\u014dji": {
+                "Real Name": "K\u014dda K\u014dji",
+                "Alias": "Petting Hero: Anima ",
+                "Birthday": "February 1",
+                "Gender": "Male",
+                "Height": "186 cm (6' 1\u00bc\")",
+                "Quirk": "Anivoice"
+            },
+            "Bondo Kojir\u014d": {
+                "Real Name": "Bondo Kojir\u014d",
+                "Alias": "Plamo ",
+                "Birthday": "December 23",
+                "Gender": "Male",
+                "Height": "191 cm (6'3\")",
+                "Quirk": "Cemedine"
+            },
+            "Tsuburaba K\u014dsei": {
+                "Real Name": "Tsuburaba K\u014dsei",
+                "Alias": "Tsuburaba ",
+                "Birthday": "May 19",
+                "Gender": "Male",
+                "Height": "170 cm (5'7\")",
+                "Quirk": "Solid Air"
+            },
+            "Jir\u014d Ky\u014dka": {
+                "Real Name": "Jir\u014d Ky\u014dka",
+                "Alias": "Hearing Hero: Earphone Jack ",
+                "Birthday": "August 1",
+                "Gender": "Female",
+                "Height": "154cm (5'1\")",
+                "Quirk": "Earphone Jack"
+            },
+            "Fukidashi Manga": {
+                "Real Name": "Fukidashi Manga",
+                "Alias": "Comicman ",
+                "Birthday": "February 2",
+                "Gender": "Male",
+                "Height": "Varies between 140 cm (4'7\") and 160 cm (5'3\")",
+                "Quirk": "Comic"
+            },
+            "Ojiro Mashirao": {
+                "Real Name": "Ojiro Mashirao",
+                "Alias": "Martial Arts Hero: Tailman ",
+                "Birthday": "May 28",
+                "Gender": "Male",
+                "Height": "169 cm (5'6\")",
+                "Quirk": "Tail"
+            },
+            "Sh\u014dji Mez\u014d": {
+                "Real Name": "Sh\u014dji Mez\u014d",
+                "Alias": "Tentacle Hero: Tentacole ",
+                "Birthday": "February 15",
+                "Gender": "Male",
+                "Height": "187 cm (6'2\")",
+                "Quirk": "Dupli-Arms"
+            },
+            "Ashido Mina": {
+                "Real Name": "Ashido Mina",
+                "Alias": "Pinky ",
+                "Birthday": "July 30",
+                "Gender": "Female",
+                "Height": "159cm (5'3\")",
+                "Quirk": "Acid"
+            },
+            "Mineta Minoru": {
+                "Real Name": "Mineta Minoru",
+                "Alias": "Fresh-Picked Hero: Grape Juice ",
+                "Birthday": "October 8",
+                "Gender": "Male",
+                "Height": "108cm (3' 6\")",
+                "Quirk": "Pop Off"
+            },
+            "T\u014dgata Mirio": {
+                "Real Name": "T\u014dgata Mirio",
+                "Alias": "Lemillion ",
+                "Birthday": "July 15",
+                "Gender": "Male",
+                "Height": "181cm (5'11\u00bc\")",
+                "Quirk": "Permeation"
+            },
+            "Yaoyorozu Momo": {
+                "Real Name": "Yaoyorozu Momo",
+                "Alias": "Everything Hero: Creati ",
+                "Birthday": "September 23",
+                "Gender": "Female",
+                "Height": "173 cm (5'8\")",
+                "Quirk": "Creation"
+            },
+            "Monoma Neito": {
+                "Real Name": "Monoma Neito",
+                "Alias": "Phantom Thief ",
+                "Birthday": "May 13",
+                "Gender": "Male",
+                "Height": "170 cm (5'7\")",
+                "Quirk": "Copy"
+            },
+            "Had\u014d Nejire": {
+                "Real Name": "Had\u014d Nejire",
+                "Alias": "Nejire Chan ",
+                "Birthday": "October 6",
+                "Gender": "Female",
+                "Height": "164cm (5'4\u00bd\")",
+                "Quirk": "Wave Motion"
+            },
+            "Sh\u014dda Nirengeki": {
+                "Real Name": "Sh\u014dda Nirengeki",
+                "Alias": "Mines ",
+                "Birthday": "February 2",
+                "Gender": "Male",
+                "Height": "165cm (5'5\")",
+                "Quirk": "Twin Impact"
+            },
+            "Uraraka Ochako": {
+                "Real Name": "Uraraka Ochako",
+                "Alias": "Uravity ",
+                "Birthday": "December 27",
+                "Gender": "Female",
+                "Height": "156cm (5'1\u00bd\")",
+                "Quirk": "Zero Gravity"
+            },
+            "Tsunotori Pon\u012b": {
+                "Real Name": "Tsunotori Pon\u012b",
+                "Alias": "Rocketti ",
+                "Birthday": "April 21",
+                "Gender": "Female",
+                "Height": "155cm (5'1\")",
+                "Quirk": "Horn Cannon"
+            },
+            "Yanagi Reiko": {
+                "Real Name": "Yanagi Reiko",
+                "Alias": "Emily ",
+                "Birthday": "February 11",
+                "Gender": "Female",
+                "Height": "165 cm (5'5\")",
+                "Quirk": "Poltergeist"
+            },
+            "Sat\u014d Rikid\u014d": {
+                "Real Name": "Sat\u014d Rikid\u014d",
+                "Alias": "Sweets Hero: Sugarman ",
+                "Birthday": "June 19",
+                "Gender": "Male",
+                "Height": "185cm (6'1\")",
+                "Quirk": "Sugar Rush"
+            },
+            "Kaibara Sen": {
+                "Real Name": "Kaibara Sen",
+                "Alias": "Spiral ",
+                "Birthday": "June 12",
+                "Gender": "Male",
+                "Height": "172 cm (5'7\u00bd\")",
+                "Quirk": "Gyrate"
+            },
+            "Tokage Setsuna": {
+                "Real Name": "Tokage Setsuna",
+                "Alias": "Lizardy ",
+                "Birthday": "October 13",
+                "Gender": "Female",
+                "Height": "158 cm (5'2\")",
+                "Quirk": "Lizard Tail Splitter"
+            },
+            "Kuroiro Shihai": {
+                "Real Name": "Kuroiro Shihai",
+                "Alias": "Scheming Hero: Vantablack ",
+                "Birthday": "November 1",
+                "Gender": "Male",
+                "Height": "176cm (5'9\u00bc\")",
+                "Quirk": "Black"
+            },
+            "Todoroki Sh\u014dto": {
+                "Real Name": "Todoroki Sh\u014dto",
+                "Alias": "Shoto ",
+                "Birthday": "January 11",
+                "Gender": "Male",
+                "Height": "176cm (5'9\u00bc\")",
+                "Quirk": "Half-Cold Half-Hot"
+            },
+            "Amajiki Tamaki": {
+                "Real Name": "Amajiki Tamaki",
+                "Alias": "Suneater ",
+                "Birthday": "March 4",
+                "Gender": "Male",
+                "Height": "177cm (5'8\")",
+                "Quirk": "Manifest"
+            },
+            "\u012ada Ten'ya": {
+                "Real Name": "\u012ada Ten'ya",
+                "Alias": "Turbo Hero: Ingenium ",
+                "Birthday": "August 22",
+                "Gender": "Male",
+                "Height": "179cm (5'10\u00bd\")",
+                "Quirk": "Engine"
+            },
+            "Tetsutetsu Tetsutetsu": {
+                "Real Name": "Tetsutetsu Tetsutetsu",
+                "Alias": "Real Steel ",
+                "Birthday": "October 16",
+                "Gender": "Male",
+                "Height": "174 cm (5'8\u00bd\")",
+                "Quirk": "Steel"
+            },
+            "Kamakiri Togaru": {
+                "Real Name": "Kamakiri Togaru",
+                "Alias": "Jack Mantis ",
+                "Birthday": "January 7",
+                "Gender": "Male",
+                "Height": "189 cm (6'2\")",
+                "Quirk": "Razor Sharp"
+            },
+            "Hagakure T\u014dru": {
+                "Real Name": "Hagakure T\u014dru",
+                "Alias": "Stealth Hero: Invisible Girl ",
+                "Birthday": "June 16",
+                "Gender": "Female",
+                "Height": "152cm (5'0\")",
+                "Quirk": "Invisibility"
+            },
+            "Asui Tsuyu": {
+                "Real Name": "Asui Tsuyu",
+                "Alias": "Rainy Season Hero: Froppy ",
+                "Birthday": "February 12",
+                "Gender": "Female",
+                "Height": "150cm (4'11\")",
+                "Quirk": "Frog"
+            },
+            "Awase Y\u014dsetsu": {
+                "Real Name": "Awase Y\u014dsetsu",
+                "Alias": "Welder ",
+                "Birthday": "November 7",
+                "Gender": "Male",
+                "Height": "172 cm (5'7\u00bd\")",
+                "Quirk": "Weld"
+            },
+            "Aoyama Y\u016bga": {
+                "Real Name": "Aoyama Y\u016bga",
+                "Alias": "Shining Hero: Can't Stop Twinkling ",
+                "Birthday": "May 30",
+                "Gender": "Male",
+                "Height": "168cm (5'6\")",
+                "Quirk": "Navel Laser"
+            },
+            "Kodai Yui": {
+                "Real Name": "Kodai Yui",
+                "Alias": "Rule ",
+                "Birthday": "December 19",
+                "Gender": "Female",
+                "Height": "160 cm (5'3\")",
+                "Quirk": "Size"
+            }
+        },
+        "Villains": {
+            "Sako Atsuhiro": {
+                "Real Name": "Sako Atsuhiro",
+                "Alias": "Mr. Compress ",
+                "Birthday": "October 8",
+                "Gender": "Male",
+                "Height": "181cm (5'11\")",
+                "Quirk": "Compress"
+            },
+            "Kon Ch\u014dj\u016br\u014d": {
+                "Real Name": "Kon Ch\u014dj\u016br\u014d",
+                "Alias": "Chimera ",
+                "Birthday": "October 4",
+                "Gender": "Male",
+                "Height": "208 cm",
+                "Quirk": "Chimera"
+            },
+            "Dabi": {
+                "Real Name": "Dabi",
+                "Alias": "Dabi ",
+                "Birthday": "January 18",
+                "Gender": "Male",
+                "Height": "176cm (5'9\u00bc\")",
+                "Quirk": "Cremation"
+            },
+            "Tobita Danj\u016br\u014d": {
+                "Real Name": "Tobita Danj\u016br\u014d",
+                "Alias": "Gentle Criminal ",
+                "Birthday": "August 29",
+                "Gender": "Male",
+                "Height": "181cm (5'11\")",
+                "Quirk": "Elasticity"
+            },
+            "Imasuji G\u014dto": {
+                "Real Name": "Imasuji G\u014dto",
+                "Alias": "The Carnal Murderer: Muscular ",
+                "Birthday": "December 7",
+                "Gender": "Male",
+                "Height": "200cm (6'7\")",
+                "Quirk": "Muscle Augmentation"
+            },
+            "Toga Himiko": {
+                "Real Name": "Toga Himiko",
+                "Alias": "Himiko Toga ",
+                "Birthday": "August 7",
+                "Gender": "Female",
+                "Height": "157cm (5'1\u00be\")",
+                "Quirk": "Transform"
+            },
+            "Makihara H\u014dy\u014d": {
+                "Real Name": "Makihara H\u014dy\u014d",
+                "Alias": "Mummy ",
+                "Birthday": "February 22nd",
+                "Gender": "Male",
+                "Height": "192 cm (6'4\")",
+                "Quirk": "Mummification"
+            },
+            "Bubaigawara Jin": {
+                "Real Name": "Bubaigawara Jin",
+                "Alias": "Twice ",
+                "Birthday": "May 10",
+                "Gender": "Male",
+                "Height": "178cm (5'10\")",
+                "Quirk": "Double"
+            },
+            "Hasaki Kiruka": {
+                "Real Name": "Hasaki Kiruka",
+                "Alias": "Slice ",
+                "Birthday": "August 3rd",
+                "Gender": "Female",
+                "Height": "163cm (5'4\")",
+                "Quirk": "Slice"
+            },
+            "Aiba Manami": {
+                "Real Name": "Aiba Manami",
+                "Alias": "La Brava ",
+                "Birthday": "February 14th",
+                "Gender": "Female",
+                "Height": "111 cm",
+                "Quirk": "Love"
+            },
+            "Iguchi Sh\u016bichi": {
+                "Real Name": "Iguchi Sh\u016bichi",
+                "Alias": "Spinner ",
+                "Birthday": "August 8",
+                "Gender": "Male",
+                "Height": "174cm (5'8\")",
+                "Quirk": "Gecko"
+            },
+            "Kugisaki S\u014dga": {
+                "Real Name": "Kugisaki S\u014dga",
+                "Alias": "Spike Villain ",
+                "Birthday": "November 8",
+                "Gender": "Male",
+                "Height": "182 cm (5'11\u215d\")",
+                "Quirk": "Spike"
+            },
+            "Tokoname Tatsuyuki": {
+                "Real Name": "Tokoname Tatsuyuki",
+                "Alias": "Slidin' Go ",
+                "Birthday": "March 1",
+                "Gender": "Male",
+                "Height": "187 cm (6'2\")",
+                "Quirk": "Unnamed Sliding Quirk"
+            }
+        },
+        "Vigilantes": {
+            "Haneyama Kazuho": {
+                "Real Name": "Haneyama Kazuho",
+                "Alias": "Pop\u2606Step ",
+                "Birthday": "May 28",
+                "Gender": "Female",
+                "Height": "158 cm (5'2\")",
+                "Quirk": "Leap"
+            },
+            "Haimawari K\u014dichi": {
+                "Real Name": "Haimawari K\u014dichi",
+                "Alias": "The Crawler ",
+                "Birthday": "February 22",
+                "Gender": "Male",
+                "Height": "172 cm (5'8\")",
+                "Quirk": "Slide and Glide"
+            },
+            "Kugisaki S\u014dga": {
+                "Real Name": "Kugisaki S\u014dga",
+                "Alias": "Spike Villain ",
+                "Birthday": "November 8",
+                "Gender": "Male",
+                "Height": "182 cm (5'11\u215d\")",
+                "Quirk": "Spike"
+            }
+        }
+    }
 }
