@@ -19,11 +19,13 @@ function compare( a, b )
     return a < b  -- Note "<" as the operator
 end
 
-The_Heroes = {}
+characters = {}
 
+character_type_id = ""
+character_id = ""
 -- File name from where the data is imported
 filename = system.pathForFile( "Hero Book.json", system.ResourceDirectory )
 
 -- for k,v in pairs(native.getFontNames()) do print(k,v) end
 -- load menu screen
-composer.gotoScene( "hero_template" )
+composer.gotoScene( "character_types" )
