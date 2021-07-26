@@ -33,11 +33,6 @@ function scene:show( event )
 
 		composer.gotoScene("character_type_template" , {effect = "crossFade",time = 400})
 	end
-
-	local function image_buttonClick( event )
-
-		composer.gotoScene("character_image" , {effect = "crossFade",time = 400})
-	end
 	
 	if phase == "will" then
 		-- Create the widget
@@ -57,25 +52,6 @@ function scene:show( event )
 				x = 30,
 				y = 20
 			})
---[[
-		-- Create the widget
-		image_button = widget.newButton(
-			{
-				label = "View image",
-				labelColor = {default={1,1,1,1}, over={0.8,0.8,0.8,1}},
-				fontSize = 16,
-				onEvent = image_buttonClick,
-				emboss = false,
-				-- Properties for a rounded rectangle button
-				shape = "roundedRect",
-				width = 80,
-				height = 40,
-				cornerRadius = 2,
-				fillColor = { default={0,0,0,1}, over={0.6,0.6,0.6,0.4} },
-				x = display.contentWidth - 40,
-				y = 20
-			})
-]]
 
 	
 		-- dislay rows with set color and height, width
@@ -117,28 +93,20 @@ function scene:show( event )
 				image_name = character_id .. ".png"
 				print(characters[character_type_id][character_id]["Image"])
 
-				local path = system.pathForFile( image_name, system.ApplicationSupportDirectory )
-
-				-- Open the file from the path
-				local fh, reason = io.open( path, "r" )
-				print(path)
-
-				if fh then
-					print("here")
-					myImage = display.newImage(row,image_name,system.ApplicationSupportDirectory,display.contentCenterX,rowHeight*0.5)
-					myImage.alpha = 0
-					transition.to( myImage, { alpha=1.0 } )					
-					
-				else
+				myImage = display.newImage(row,image_name,system.ApplicationSupportDirectory,display.contentCenterX,rowHeight*0.5)
+				if myImage == nil then
 					local params = {}
 					params.progress = true
 
 					network.download( characters[character_type_id][character_id]["Image"], "GET", networkListener,params, image_name, system.ApplicationSupportDirectory)
 					print("nope")
+					
+				else
+					myImage.alpha = 0
+					transition.to( myImage, { alpha=1.0 } )					
 				end
 
 			end
-
 
 
 			transition.to(row,{alpha = 1})
@@ -172,9 +140,10 @@ function scene:show( event )
 		local rowColor = { default=color1, over=color2 }
 		
 		character_view:insertRow({rowHeight = 500,id = "Image", rowColor = rowColor, params = {rowTitle = nil}})
+		character_view:insertRow({rowHeight = 500,id = "Real Name", rowColor = rowColor, params = {rowTitle = nil}})
 
 	 	for attr,value in pairs(characters[character_type_id][character_id]) do
-	 		if attr ~= "Image" then
+	 		if attr ~= "Image" or attr ~= "Real Name" then
 	 		character_view:insertRow({id = attr, rowColor = rowColor, params = {rowTitle = nil, image = nil}}) end
 	 	end
 

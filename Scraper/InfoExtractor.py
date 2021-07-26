@@ -30,7 +30,7 @@ basic_site = "https://myheroacademia.fandom.com"
 extension_sites = ["/wiki/Category:Pro_Heroes","/wiki/Category:U.A._Staff","/wiki/Category:U.A._Students","/wiki/Category:Villains","/wiki/Category:Vigilantes"]
 
 links = {}
-
+"""
 for extension_site in extension_sites:
 	# Site to be interacted with
 	site = basic_site + extension_site
@@ -50,6 +50,13 @@ for extension_site in extension_sites:
 
 	with open(f"LinksToCharacters{category}.txt", "w") as file:
 		file.write('\n'.join(links[category]))
+"""
+
+for extension_site in extension_sites:
+	# Category name
+	category = extension_site.split(':')[1]
+	with open(f"LinksToCharacters{category}.txt", "r") as file:
+		links[category] = list(file.read().split('\n'))
 
 information = {}
 information["Raw"] = {}
@@ -153,7 +160,7 @@ for characterType,links_to_characters in links.items():
 				if attribute == "alias":
 					value = temp
 
-				print(f"{attribute} not found")
+				#print(f"{attribute} not found")
 				not_found.add(temp)
 
 			#print(attribute,":",value)
@@ -168,6 +175,7 @@ for characterType,links_to_characters in links.items():
 			information["Complete Information"][characterType][name]["Height"] = height
 			information["Complete Information"][characterType][name]["Quirk"] = quirk
 			information["Complete Information"][characterType][name]["Image"] = image
+			print("All present")
 
 
 driver.quit()
