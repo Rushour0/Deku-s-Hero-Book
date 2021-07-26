@@ -7,7 +7,7 @@ local decoded
 -- create()
 function scene:create( event )
 
-	local backGroup = self.view
+	local sceneGroup = self.view
 
 	-- Making a white background in the back
 	local back = display.newRect(display.contentCenterX,display.contentCenterY,display.contentWidth,display.contentHeight)
@@ -27,12 +27,11 @@ function scene:create( event )
 		print( "File successfully decoded!" )
 	end
 
-	backGroup:insert(back)
-	backGroup:insert(background)
+	sceneGroup:insert(back)
+	sceneGroup:insert(background)
 
 end
 
-local sceneGroup
 -- show()
 function scene:show( event )
 
@@ -53,6 +52,7 @@ function scene:show( event )
 		back_button = widget.newButton(
 			{
 				label = "Back",
+				labelColor = {default={1,1,1,1}, over={0.8,0.8,0.8,1}},
 				fontSize = 16,
 				onEvent = back_buttonClick,
 				emboss = false,
@@ -62,8 +62,6 @@ function scene:show( event )
 				height = 40,
 				cornerRadius = 2,
 				fillColor = { default={0,0,0,1}, over={0.6,0.6,0.6,0.4} },
-				strokeColor = { default={0.8,0.8,0.8,1}, over={0.8,0.8,1,1} },
-				strokeWidth = 4,
 				x = 30,
 				y = 20
 			})
@@ -75,25 +73,26 @@ function scene:show( event )
 			local row = event.row
 			row.alpha = 0
 
+
 			-- Cache the row "contentWidth" and "contentHeight" because the row bounds can change as children objects are added
 			local rowHeight = row.contentHeight
 			local rowWidth = row.contentWidth
 
-			local rowTitle
+			local params = event.row.params
 
 			if character_type_id == "U.A._Students" then
 				
-				rowTitle = display.newText( row, row.id , 0, 0,native.systemFont,16 )
-				rowTitle:setFillColor( 0 )
-				
+				params.rowTitle = display.newText( row, row.id , 0, 0,"fonts/Helvetica-Bold.ttf",16 )
+				params.rowTitle:setFillColor( 0 )
+
 			else
-				rowTitle = display.newText( row, characters[character_type_id][row.id]["Alias"], 0, 0,native.systemFont,16 )
-				rowTitle:setFillColor( 0 )
+				params.rowTitle = display.newText( row, characters[character_type_id][row.id]["Alias"], 0, 0,"fonts/Helvetica-Bold.ttf",16 )
+				params.rowTitle:setFillColor( 0 )
 			end
 			-- Align the label left and vertically centered
 
-			rowTitle.x = display.contentCenterX
-			rowTitle.y = rowHeight * 0.5
+			params.rowTitle.x = display.contentCenterX
+			params.rowTitle.y = rowHeight * 0.5
 
 			transition.to(row,{alpha = 1})
 		end
@@ -102,12 +101,18 @@ function scene:show( event )
 			
 			-- Get reference to the row group
 			local row = event.row
+			local params = event.row.params
 
+			params.rowTitle:setFillColor(0.6)
 			character_id = row.id
 
 			--textField.alpha = 0
+			print(event.phase)
 			if event.phase == "release" then
+				params.rowTitle:setFillColor(0)
 				composer.gotoScene( "character_template", {effect = "crossFade",time = 400} )
+			elseif event.phase == "cancelled" then
+				params.rowTitle:setFillColor(0)
 			end
 
 		end
@@ -118,12 +123,12 @@ function scene:show( event )
 				hideBackground = true,
 				left = 0,
 				top = display.contentHeight/16,
-				height = display.contentHeight-100,
+				height = display.contentHeight*15/16,
 				width = display.contentWidth,
 				onRowRender = onRowRender,
 				onRowTouch = onRowTouch,
 				rowTouchDelay = 0,
-				noLines = true
+				noLines = false
 
 		    }
 		)
@@ -144,7 +149,7 @@ function scene:show( event )
 		-- Insert character rows
 		for character_name,given_table in pairs(characters[character_type_id]) do
 			-- Insert a row into the character_select
-			character_select:insertRow({id = character_name, rowColor = rowColor })
+			character_select:insertRow({id = character_name, rowColor = rowColor, params = { rowTitle = nil} })
 		end
 
 		sceneGroup:insert(character_select)
@@ -169,9 +174,7 @@ function scene:hide( event )
 
 	elseif ( phase == "did" ) then
 		-- Code here runs immediately after the scene goes entirely off screen
-		for i = 1,2 do
-			sceneGroup[sceneGroup.numChildren]:removeSelf()
-		end
+		composer.removeScene("character_type_template")
 
 	end
 end

@@ -31,6 +31,7 @@ function scene:create( event )
 	load_heroes_button = widget.newButton(
 		{
 			label = "Pro Heroes",
+			labelColor = {default={0,0,0,1}, over={0.5,0.5,0.5,1}},
 			fontSize = 28,
 			onEvent = load_characters_buttonClick,
 			emboss = false,
@@ -41,10 +42,8 @@ function scene:create( event )
 			cornerRadius = 2,
 			fillColor = { default={1,1,1,0.7}, over={0.6,0.6,0.6,0.4} },
 			
-
-			font = native.systemFontBold,
-			font = native.systemFontBold,x = display.contentCenterX,
-			y = display.contentCenterY-200
+			font = "fonts/Helvetica-Bold.ttf",x = display.contentCenterX,
+			y = display.contentHeight/2
 		})
 	load_heroes_button.name = "Pro_Heroes"
 	
@@ -52,6 +51,7 @@ function scene:create( event )
 	load_staff_button = widget.newButton(
 		{
 			label = "U.A. Staff",
+			labelColor = {default={0,0,0,1}, over={0.5,0.5,0.5,1}},
 			fontSize = 28,
 			onEvent = load_characters_buttonClick,
 			emboss = false,
@@ -63,7 +63,7 @@ function scene:create( event )
 			fillColor = { default={1,1,1,0.7}, over={0.6,0.6,0.6,0.4} },
 			
 
-			font = native.systemFontBold,x = display.contentCenterX,
+			font = "fonts/Helvetica-Bold.ttf",x = display.contentCenterX,
 			y = load_heroes_button.y + 50
 		})
 	load_staff_button.name = "U.A._Staff"
@@ -72,6 +72,7 @@ function scene:create( event )
 	load_students_button = widget.newButton(
 		{
 			label = "U.A. Students",
+			labelColor = {default={0,0,0,1}, over={0.5,0.5,0.5,1}},
 			fontSize = 28,
 			onEvent = load_characters_buttonClick,
 			emboss = false,
@@ -83,7 +84,7 @@ function scene:create( event )
 			fillColor = { default={1,1,1,0.7}, over={0.6,0.6,0.6,0.4} },
 			
 
-			font = native.systemFontBold,x = display.contentCenterX,
+			font = "fonts/Helvetica-Bold.ttf",x = display.contentCenterX,
 			y = load_staff_button.y + 50
 		})
 	load_students_button.name = "U.A._Students"
@@ -92,6 +93,7 @@ function scene:create( event )
 	load_villains_button = widget.newButton(
 		{
 			label = "Villains",
+			labelColor = {default={0,0,0,1}, over={0.5,0.5,0.5,1}},
 			fontSize = 28,
 			onEvent = load_characters_buttonClick,
 			emboss = false,
@@ -103,7 +105,7 @@ function scene:create( event )
 			fillColor = { default={1,1,1,0.7}, over={0.6,0.6,0.6,0.4} },
 			
 
-			font = native.systemFontBold,x = display.contentCenterX,
+			font = "fonts/Helvetica-Bold.ttf",x = display.contentCenterX,
 			y = load_students_button.y+50
 		})
 	load_villains_button.name = "Villains"
@@ -112,6 +114,7 @@ function scene:create( event )
 	load_vigilantes_button = widget.newButton(
 		{
 			label = "Vigilantes",
+			labelColor = {default={0,0,0,1}, over={0.5,0.5,0.5,1}},
 			fontSize = 28,
 			onEvent = load_characters_buttonClick,
 			emboss = false,
@@ -123,7 +126,7 @@ function scene:create( event )
 			fillColor = { default={1,1,1,0.7}, over={0.6,0.6,0.6,0.4} },
 			
 
-			font = native.systemFontBold,x = display.contentCenterX,
+			font = "fonts/Helvetica-Bold.ttf",x = display.contentCenterX,
 			y = load_villains_button.y+50
 		})
 	load_vigilantes_button.name = "Vigilantes"
