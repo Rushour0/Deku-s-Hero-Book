@@ -2,10 +2,17 @@
 Making an app of heroes' details - Deku's Hero Analysis Book
 
 In the building process
-Main Page
-![Screenshot_20210901_103259](https://user-images.githubusercontent.com/72869428/131615015-801bc98c-2e25-472e-8d09-ffb05dcd4d55.jpg)
-Pro Heroes
-![Screenshot_20210901_103305](https://user-images.githubusercontent.com/72869428/131615024-76ea5790-cc49-40f9-b0b8-6db0117fbb14.jpg)
-All Mightttt!!!
-![Screenshot_20210901_103324](https://user-images.githubusercontent.com/72869428/131615040-98d0e045-4680-44c3-8a85-e8fd641d1ac9.jpg)
-![Screenshot_20210901_103329](https://user-images.githubusercontent.com/72869428/131615049-5425b355-68e6-4972-a0a3-9f320ee594ab.jpg)
+## Main Page
+![Screenshot_20210901_103259](https://user-images.githubusercontent.com/72869428/131615384-8999bfb4-46b4-44f7-b015-2e5a8558a4bd.jpg)
+
+## Pro Heroes
+![Screenshot_20210901_103319](https://user-images.githubusercontent.com/72869428/131615382-d312ab27-459c-4b91-b796-b9712bd35363.jpg)
+
+## Aizawa
+![Screenshot_20210901_103314](https://user-images.githubusercontent.com/72869428/131615381-44469169-acbe-481e-a9ef-66ee9b21dfe9.jpg)
+![Screenshot_20210901_103305](https://user-images.githubusercontent.com/72869428/131615379-d6982a5c-d5d0-4942-819d-d55d8dc9bd3c.jpg)
+
+## Twice
+![Screenshot_20210901_103341](https://user-images.githubusercontent.com/72869428/131615483-9f02f52c-d816-4598-8b2c-21973a168783.jpg)
+
+
