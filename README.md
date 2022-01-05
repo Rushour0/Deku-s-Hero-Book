@@ -1,7 +1,7 @@
 # Deku's Hero Book
 Making an app of heroes' details - Deku's Hero Analysis Book
 
-In the building process
+Data scraping and requesting
 ## Main Page
 ![Screenshot_20210901_103259](https://user-images.githubusercontent.com/72869428/131615384-8999bfb4-46b4-44f7-b015-2e5a8558a4bd.jpg)
 
